@@ -26,8 +26,22 @@ jobs:
           # TODAY=$(TZ=Asia/Seoul date -d "1 day ago" +"%m-%d")
           
           # 정확한 UTC 시간 변환
-          START_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 00:00:00" -u +"%Y-%m-%dT%H:%M:%SZ")
-          END_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 23:59:59" -u +"%Y-%m-%dT%H:%M:%SZ")
+          # START_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 00:00:00" -u +"%Y-%m-%dT%H:%M:%SZ")
+          # END_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 23:59:59" -u +"%Y-%m-%dT%H:%M:%SZ")
+          
+          # echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
+          # echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
+
+          # 한국시간 06-09를 정확히 UTC로 변환
+          # KST 06-09 00:00 = UTC 06-08 15:00
+          # KST 06-09 23:59 = UTC 06-09 14:59
+          START_TIME="2025-06-08T15:00:00Z"  # KST 06-09 00:00
+          END_TIME="2025-06-09T14:59:59Z"    # KST 06-09 23:59
+          
+          echo "🕐 정확한 UTC 변환:"
+          echo "   KST 06-09 00:00 → UTC 06-08 15:00"
+          echo "   KST 06-09 23:59 → UTC 06-09 14:59"
+          echo "   검색 범위: $START_TIME ~ $END_TIME"
           
           echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
           echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"

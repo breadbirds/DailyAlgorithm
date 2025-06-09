@@ -1,0 +1,55 @@
+name: Precise Debug
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Precise Debug
+        run: |
+          echo "🔍 정밀 디버깅 시작"
+          echo "================================"
+          
+          # 1. 유진님의 모든 커밋 확인
+          echo "1. 유진님의 06-09 모든 커밋:"
+          all_commits=$(curl -s "https://api.github.com/repos/breadbirds/DailyAlgorithm/commits?author=breadbirds&since=2025-06-08T15:00:00Z&until=2025-06-09T14:59:59Z")
+          echo "$all_commits" | jq '.[0:3] | .[] | {message: .commit.message, date: .commit.committer.date, files: [.url]}'
+          echo ""
+          
+          # 2. 각 커밋의 파일 목록 확인
+          echo "2. 각 커밋에서 수정된 파일들:"
+          for commit_sha in $(echo "$all_commits" | jq -r '.[0:3][] | .sha'); do
+            echo "  커밋 $commit_sha:"
+            curl -s "https://api.github.com/repos/breadbirds/DailyAlgorithm/commits/$commit_sha" | \
+              jq -r '.files[]? | .filename' | sed 's/^/    • /'
+            echo ""
+          done
+          
+          # 3. yujin 폴더 직접 확인
+          echo "3. yujin 폴더 커밋 API 호출:"
+          yujin_response=$(curl -s "https://api.github.com/repos/breadbirds/DailyAlgorithm/commits?author=breadbirds&path=yujin&since=2025-06-08T15:00:00Z&until=2025-06-09T14:59:59Z")
+          echo "응답 길이: ${#yujin_response}"
+          echo "응답 내용: $yujin_response"
+          echo ""
+          
+          # 4. 다른 path 옵션들 테스트
+          echo "4. 다른 path 옵션들 테스트:"
+          
+          echo "  • path=yujin/:"
+          curl -s "https://api.github.com/repos/breadbirds/DailyAlgorithm/commits?author=breadbirds&path=yujin/&since=2025-06-08T15:00:00Z&until=2025-06-09T14:59:59Z" | jq '. | length'
+          
+          echo "  • path=yujin/test.txt:"
+          curl -s "https://api.github.com/repos/breadbirds/DailyAlgorithm/commits?author=breadbirds&path=yujin/test.txt&since=2025-06-08T15:00:00Z&until=2025-06-09T14:59:59Z" | jq '. | length'
+          
+          # 5. 실제 레포 구조
+          echo "5. 실제 레포 구조:"
+          find . -name "*.txt" | head -10
+          ls -la yujin/ 2>/dev/null || echo "yujin 폴더 없음"
+          
+          echo ""
+          echo "🔗 수동 확인 링크:"
+          echo "https://github.com/breadbirds/DailyAlgorithm/commits?author=breadbirds&since=2025-06-09&until=2025-06-09"
