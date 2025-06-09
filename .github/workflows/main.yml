@@ -17,18 +17,16 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
       - name: Update README table
         run: |
-          # 테스트용: 06-09 날짜로 고정 (현재 시간까지 확장)
-          YESTERDAY_KST="2025-06-09"
-          TODAY="06-09"
+         # 어제 날짜로 체크 (자정에 실행되므로)
+          YESTERDAY_KST=$(TZ=Asia/Seoul date -d "1 day ago" +"%Y-%m-%d")
+          TODAY=$(TZ=Asia/Seoul date -d "1 day ago" +"%m-%d")
           
-          # 06-09 전체 + 현재 시간까지 (여유있게)
-          START_TIME="2025-06-08T15:00:00Z"  # KST 06-09 00:00
-          END_TIME="2025-06-09T23:59:59Z"    # KST 06-10 08:59 (충분한 여유)
+          # 정확한 UTC 시간 변환
+          START_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 00:00:00" -u +"%Y-%m-%dT%H:%M:%SZ")
+          END_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 23:59:59" -u +"%Y-%m-%dT%H:%M:%SZ")
           
-          echo "🕐 확장된 시간 범위:"
-          echo "   시작: $START_TIME (KST 06-09 00:00)"
-          echo "   종료: $END_TIME (KST 06-10 08:59)"
-          echo "   → 방금 커밋까지 포함"
+          echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
+          echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
           
           echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
           echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
