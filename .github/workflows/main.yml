@@ -17,12 +17,13 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
       - name: Update README table
         run: |
-          # 어제 날짜로 체크 (자정에 실행되므로)
-          # YESTERDAY_KST=$(TZ=Asia/Seoul date -d "1 day ago" +"%Y-%m-%d")
-          # TODAY=$(TZ=Asia/Seoul date -d "1 day ago" +"%m-%d")
-
+          # 테스트용: 06-09 날짜로 고정
           YESTERDAY_KST="2025-06-09"
           TODAY="06-09"
+          
+          # 원래 코드 (테스트 후 복구용):
+          # YESTERDAY_KST=$(TZ=Asia/Seoul date -d "1 day ago" +"%Y-%m-%d")
+          # TODAY=$(TZ=Asia/Seoul date -d "1 day ago" +"%m-%d")
           
           # 정확한 UTC 시간 변환
           START_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 00:00:00" -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -31,10 +32,13 @@ jobs:
           echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
           echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
           
-          # 사용자 정보와 각자의 폴더 매핑
+          # 사용자 정보와 각자의 폴더 매핑 (영어 폴더명으로 테스트)
           USERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")
           GH_USERS=("breadbirds" "icpc365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")
-          FOLDERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")  # 각자의 폴더명
+          FOLDERS=("breadbirds" "icpc365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")  # GitHub ID로 테스트
+          
+          # 실제 한글 폴더명을 사용하려면 아래 주석 해제:
+          # FOLDERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")
           
           REPO_NAME="breadbirds/DailyAlgorithm"
           LINE="| $TODAY "
@@ -46,8 +50,12 @@ jobs:
             
             echo "👤 $user ($gh_id) → 📁 $target_folder 폴더 확인 중..."
             
+            # 한글 폴더명 URL 인코딩
+            encoded_folder=$(echo "$target_folder" | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))")
+            echo "   🔗 인코딩된 폴더명: $encoded_folder"
+            
             # 방법 1: REST API로 특정 폴더 커밋 확인
-            folder_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&path=$target_folder&since=$START_TIME&until=$END_TIME" \
+            folder_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&path=$encoded_folder&since=$START_TIME&until=$END_TIME" \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
             
             # API 응답 확인 및 에러 처리
@@ -63,7 +71,7 @@ jobs:
             fi
             
             # 방법 2: Search API로 교차 검증
-            search_query="repo:$REPO_NAME+author:$gh_id+path:$target_folder+committer-date:$START_TIME..$END_TIME"
+            search_query="repo:$REPO_NAME+author:$gh_id+path:$encoded_folder+committer-date:$START_TIME..$END_TIME"
             search_response=$(curl -s "https://api.github.com/search/commits?q=$search_query" \
               -H "Accept: application/vnd.github.cloak-preview" \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
@@ -93,7 +101,7 @@ jobs:
                   if [[ -n "$commit_sha" ]]; then
                     files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
                       -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
-                      jq -r '.files[]? | select(.filename | startswith("'$target_folder'/")) | .filename' 2>/dev/null | head -3)
+                      jq -r '.files[]? | select(.filename | startswith("'$encoded_folder'/")) | .filename' 2>/dev/null | head -3)
                     if [[ -n "$files" ]]; then
                       echo "$files" | sed 's/^/      • /'
                     fi
