@@ -32,13 +32,10 @@ jobs:
           echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
           echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
           
-          # 사용자 정보와 각자의 폴더 매핑 (영어 폴더명으로 테스트)
+          # 사용자 정보와 각자의 폴더 매핑
           USERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")
           GH_USERS=("breadbirds" "icpc365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")
-          FOLDERS=("breadbirds" "icpc365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")  # GitHub ID로 테스트
-          
-          # 실제 한글 폴더명을 사용하려면 아래 주석 해제:
-          # FOLDERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")
+          FOLDERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")  # 각자의 폴더명
           
           REPO_NAME="breadbirds/DailyAlgorithm"
           LINE="| $TODAY "
