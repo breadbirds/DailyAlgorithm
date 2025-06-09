@@ -17,31 +17,18 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
       - name: Update README table
         run: |
-          # 테스트용: 06-09 날짜로 고정
+          # 테스트용: 06-09 날짜로 고정 (현재 시간까지 확장)
           YESTERDAY_KST="2025-06-09"
           TODAY="06-09"
           
-          # 원래 코드 (테스트 후 복구용):
-          # YESTERDAY_KST=$(TZ=Asia/Seoul date -d "1 day ago" +"%Y-%m-%d")
-          # TODAY=$(TZ=Asia/Seoul date -d "1 day ago" +"%m-%d")
-          
-          # 정확한 UTC 시간 변환
-          # START_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 00:00:00" -u +"%Y-%m-%dT%H:%M:%SZ")
-          # END_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 23:59:59" -u +"%Y-%m-%dT%H:%M:%SZ")
-          
-          # echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
-          # echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
-
-          # 한국시간 06-09를 정확히 UTC로 변환
-          # KST 06-09 00:00 = UTC 06-08 15:00
-          # KST 06-09 23:59 = UTC 06-09 14:59
+          # 06-09 전체 + 현재 시간까지 (여유있게)
           START_TIME="2025-06-08T15:00:00Z"  # KST 06-09 00:00
-          END_TIME="2025-06-09T14:59:59Z"    # KST 06-09 23:59
+          END_TIME="2025-06-09T23:59:59Z"    # KST 06-10 08:59 (충분한 여유)
           
-          echo "🕐 정확한 UTC 변환:"
-          echo "   KST 06-09 00:00 → UTC 06-08 15:00"
-          echo "   KST 06-09 23:59 → UTC 06-09 14:59"
-          echo "   검색 범위: $START_TIME ~ $END_TIME"
+          echo "🕐 확장된 시간 범위:"
+          echo "   시작: $START_TIME (KST 06-09 00:00)"
+          echo "   종료: $END_TIME (KST 06-10 08:59)"
+          echo "   → 방금 커밋까지 포함"
           
           echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
           echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
@@ -52,8 +39,8 @@ jobs:
           FOLDERS=("yujin" "love" "migi" "soong" "ayoung" "juhoo")  # 실제 폴더명으로 변경
           
           echo "🔍 실제 폴더명 확인 중..."
-          echo "   유진 → breadbirds 폴더"
-          echo "   사란 → icpc365 폴더"
+          echo "   유진 → yujin 폴더"
+          echo "   사란 → love 폴더"
           echo ""
           
           REPO_NAME="breadbirds/DailyAlgorithm"
@@ -70,21 +57,43 @@ jobs:
             encoded_folder=$(echo "$target_folder" | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))")
             echo "   🔗 인코딩된 폴더명: $encoded_folder"
             
-            # 방법 1: REST API로 특정 폴더 커밋 확인
-            folder_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&path=$encoded_folder&since=$START_TIME&until=$END_TIME" \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
+            # 여러 작성자명으로 검색 (GitHub ID + 실명)
+            case $gh_id in
+              "breadbirds")
+                author_names=("breadbirds" "정유진")
+                ;;
+              "icpc365")
+                author_names=("icpc365" "이사랑")
+                ;;
+              "itsanisland")
+                author_names=("itsanisland" "서미지")
+                ;;
+                "bmlsj")
+                author_names=("bmlsj" "이승지")
+                ;;
+                "hanayoung")
+                author_names=("hanayoung" "한아영")
+                ;;
+                "bluemango0312")
+                author_names=("bluemango0312" "서정후")
+                ;;
+            esac
             
-            # API 응답 확인 및 에러 처리
-            echo "   🔍 API 응답 확인:"
-            echo "$folder_commits" | head -200 | sed 's/^/      /'
+            folder_count=0
             
-            # JSON 유효성 검사
-            if echo "$folder_commits" | jq empty 2>/dev/null; then
-              folder_count=$(echo "$folder_commits" | jq '. | length // 0')
-            else
-              echo "   ❌ JSON 파싱 오류 발생"
-              folder_count=0
-            fi
+            # 각 작성자명으로 검색
+            for author_name in "${author_names[@]}"; do
+              echo "   🔍 작성자명: $author_name 으로 검색 중..."
+              
+              folder_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$author_name&path=$encoded_folder&since=$START_TIME&until=$END_TIME" \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
+              
+              if echo "$folder_commits" | jq empty 2>/dev/null; then
+                current_count=$(echo "$folder_commits" | jq '. | length // 0')
+                echo "     → $current_count개 커밋 발견"
+                folder_count=$((folder_count + current_count))
+              fi
+            done
             
             # 방법 2: Search API로 교차 검증
             search_query="repo:$REPO_NAME+author:$gh_id+path:$encoded_folder+committer-date:$START_TIME..$END_TIME"
