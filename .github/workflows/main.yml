@@ -40,7 +40,7 @@ jobs:
             user=${USERS[$i]}
             gh_id=${GH_USERS[$i]}
 
-            QUERY="repo:$REPO_NAME+author:$gh_id+committer-date:$START_TIME..$END_TIME"
+            QUERY="repo:$REPO_NAME+author:$gh_id+committer:$gh_id+committer-date:$START_TIME..$END_TIME"
             count=$(curl -s "https://api.github.com/search/commits?q=$QUERY" \
               -H "Accept: application/vnd.github.cloak-preview" | jq '.total_count')
 
