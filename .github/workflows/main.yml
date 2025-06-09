@@ -44,6 +44,8 @@ jobs:
             count=$(curl -s "https://api.github.com/search/commits?q=$QUERY" \
               -H "Accept: application/vnd.github.cloak-preview" | jq '.total_count')
 
+            echo "$user ($gh_id): count = $count"
+
             if [[ "$count" =~ ^[0-9]+$ && "$count" -gt 0 ]]; then
               LINE="$LINE| ✅ "
             else
@@ -53,7 +55,7 @@ jobs:
           LINE="$LINE|"
 
           echo "📋 작성된 줄: $LINE"
-          echo "$user ($gh_id): count = $count"
+          
 
           # README.md 갱신
           awk -v date="$TODAY" -v newline="$LINE" '
