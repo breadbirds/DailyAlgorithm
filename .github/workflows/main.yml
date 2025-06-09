@@ -1,13 +1,10 @@
 name: Update Daily Commit Table
-
 on:
   schedule:
     - cron: '1 15 * * *'  # 매일 KST 00:01 실행
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update-table:
     runs-on: ubuntu-latest
@@ -16,47 +13,106 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Install jq (for JSON parsing)
         run: sudo apt-get update && sudo apt-get install -y jq
-
       - name: Update README table
         run: |
-          # 오늘 날짜 (KST 기준)
-          KST_DATE=$(TZ=Asia/Seoul date +"%Y-%m-%d")
-          TODAY=$(TZ=Asia/Seoul date +"%m-%d")
-
-          # 시간 범위 (UTC 기준): 오늘 자정 ~ 오늘 23:59
-          START_TIME=$(date -u -d "$KST_DATE 00:00:00" +"%Y-%m-%dT%H:%M:%SZ")
-          END_TIME=$(date -u -d "$KST_DATE 23:59:59" +"%Y-%m-%dT%H:%M:%SZ")
-
+          # 어제 날짜로 체크 (자정에 실행되므로)
+          YESTERDAY_KST=$(TZ=Asia/Seoul date -d "1 day ago" +"%Y-%m-%d")
+          TODAY=$(TZ=Asia/Seoul date -d "1 day ago" +"%m-%d")
+          
+          # 정확한 UTC 시간 변환
+          START_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 00:00:00" -u +"%Y-%m-%dT%H:%M:%SZ")
+          END_TIME=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST 23:59:59" -u +"%Y-%m-%dT%H:%M:%SZ")
+          
+          echo "📅 체크 날짜: $YESTERDAY_KST (KST)"
+          echo "🕐 UTC 범위: $START_TIME ~ $END_TIME"
+          
+          # 사용자 정보와 각자의 폴더 매핑
           USERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")
           GH_USERS=("breadbirds" "icpc365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")
-
+          FOLDERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")  # 각자의 폴더명
+          
           REPO_NAME="breadbirds/DailyAlgorithm"
           LINE="| $TODAY "
-
+          
           for i in "${!USERS[@]}"; do
             user=${USERS[$i]}
             gh_id=${GH_USERS[$i]}
-
-            QUERY="repo:$REPO_NAME+author:$gh_id+committer:$gh_id+committer-date:$START_TIME..$END_TIME"
-            count=$(curl -s "https://api.github.com/search/commits?q=$QUERY" \
-              -H "Accept: application/vnd.github.cloak-preview" | jq '.total_count')
-
-            echo "$user ($gh_id): count = $count"
-
-            if [[ "$count" =~ ^[0-9]+$ && "$count" -gt 0 ]]; then
+            target_folder=${FOLDERS[$i]}
+            
+            echo "👤 $user ($gh_id) → 📁 $target_folder 폴더 확인 중..."
+            
+            # 방법 1: REST API로 특정 폴더 커밋 확인
+            folder_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&path=$target_folder&since=$START_TIME&until=$END_TIME" \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
+            
+            folder_count=$(echo "$folder_commits" | jq '. | length // 0')
+            
+            # 방법 2: Search API로 교차 검증
+            search_query="repo:$REPO_NAME+author:$gh_id+path:$target_folder+committer-date:$START_TIME..$END_TIME"
+            search_response=$(curl -s "https://api.github.com/search/commits?q=$search_query" \
+              -H "Accept: application/vnd.github.cloak-preview" \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
+            
+            search_count=$(echo "$search_response" | jq -r '.total_count // 0')
+            
+            echo "   📊 REST API: $folder_count개, Search API: $search_count개"
+            
+            # 커밋 상세 정보 출력 (디버깅)
+            if [[ "$folder_count" -gt 0 ]]; then
+              echo "   ✅ $target_folder 폴더에 커밋 발견!"
+              echo "   📋 커밋 내역:"
+              echo "$folder_commits" | jq -r '.[0:3][] | "      • " + .commit.message + " (" + (.commit.committer.date | split("T")[0]) + ")"' 2>/dev/null || echo "      상세 정보 로드 실패"
+              
+              echo "   📂 수정된 파일들:"
+              # 각 커밋에서 수정된 파일 확인
+              for commit_sha in $(echo "$folder_commits" | jq -r '.[0:2][] | .sha'); do
+                files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
+                  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
+                  jq -r '.files[]? | select(.filename | startswith("'$target_folder'/")) | .filename' | head -3)
+                if [[ -n "$files" ]]; then
+                  echo "$files" | sed 's/^/      • /'
+                fi
+                sleep 0.5  # API Rate limit 방지
+              done
+            else
+              echo "   ❌ $target_folder 폴더에 커밋 없음"
+              
+              # 다른 폴더에 커밋했는지 확인
+              all_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&since=$START_TIME&until=$END_TIME" \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
+              
+              all_count=$(echo "$all_commits" | jq '. | length // 0')
+              
+              if [[ "$all_count" -gt 0 ]]; then
+                echo "   ⚠️  다른 폴더에 $all_count개 커밋 발견:"
+                for commit_sha in $(echo "$all_commits" | jq -r '.[0:2][] | .sha'); do
+                  files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
+                    -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
+                    jq -r '.files[]? | .filename' | head -3)
+                  if [[ -n "$files" ]]; then
+                    echo "$files" | sed 's/^/      • /'
+                  fi
+                  sleep 0.5
+                done
+              fi
+            fi
+            
+            # 최종 판정: 자신의 폴더에 커밋했는지만 체크
+            if [[ "$folder_count" -gt 0 ]]; then
               LINE="$LINE| ✅ "
             else
               LINE="$LINE| ❌ "
             fi
+            
+            echo ""
+            sleep 1  # API Rate limit 방지
           done
-          LINE="$LINE|"
-
-          echo "📋 작성된 줄: $LINE"
           
-
+          LINE="$LINE|"
+          echo "📋 최종 결과: $LINE"
+          
           # README.md 갱신
           awk -v date="$TODAY" -v newline="$LINE" '
           BEGIN{updated=0}
@@ -73,11 +129,11 @@ jobs:
               print newline
             }
           }' README.md > tmp && mv tmp README.md
-
+          
       - name: Commit updated README
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
           git add README.md
-          git commit -m "✅ [$TODAY] 커밋 현황 갱신" || echo "No change"
+          git commit -m "✅ [$TODAY] 폴더별 커밋 현황 갱신" || echo "No change"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
