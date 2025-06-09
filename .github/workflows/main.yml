@@ -47,7 +47,17 @@ jobs:
             folder_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&path=$target_folder&since=$START_TIME&until=$END_TIME" \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
             
-            folder_count=$(echo "$folder_commits" | jq '. | length // 0')
+            # API 응답 확인 및 에러 처리
+            echo "   🔍 API 응답 확인:"
+            echo "$folder_commits" | head -200 | sed 's/^/      /'
+            
+            # JSON 유효성 검사
+            if echo "$folder_commits" | jq empty 2>/dev/null; then
+              folder_count=$(echo "$folder_commits" | jq '. | length // 0')
+            else
+              echo "   ❌ JSON 파싱 오류 발생"
+              folder_count=0
+            fi
             
             # 방법 2: Search API로 교차 검증
             search_query="repo:$REPO_NAME+author:$gh_id+path:$target_folder+committer-date:$START_TIME..$END_TIME"
@@ -55,7 +65,13 @@ jobs:
               -H "Accept: application/vnd.github.cloak-preview" \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
             
-            search_count=$(echo "$search_response" | jq -r '.total_count // 0')
+            # Search API 응답도 검증
+            if echo "$search_response" | jq empty 2>/dev/null; then
+              search_count=$(echo "$search_response" | jq -r '.total_count // 0')
+            else
+              echo "   ❌ Search API JSON 파싱 오류"
+              search_count=0
+            fi
             
             echo "   📊 REST API: $folder_count개, Search API: $search_count개"
             
@@ -63,19 +79,25 @@ jobs:
             if [[ "$folder_count" -gt 0 ]]; then
               echo "   ✅ $target_folder 폴더에 커밋 발견!"
               echo "   📋 커밋 내역:"
-              echo "$folder_commits" | jq -r '.[0:3][] | "      • " + .commit.message + " (" + (.commit.committer.date | split("T")[0]) + ")"' 2>/dev/null || echo "      상세 정보 로드 실패"
+              if echo "$folder_commits" | jq empty 2>/dev/null; then
+                echo "$folder_commits" | jq -r '.[0:3][] | "      • " + .commit.message + " (" + (.commit.committer.date | split("T")[0]) + ")"' 2>/dev/null || echo "      커밋 정보 파싱 실패"
+              fi
               
               echo "   📂 수정된 파일들:"
               # 각 커밋에서 수정된 파일 확인
-              for commit_sha in $(echo "$folder_commits" | jq -r '.[0:2][] | .sha'); do
-                files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
-                  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
-                  jq -r '.files[]? | select(.filename | startswith("'$target_folder'/")) | .filename' | head -3)
-                if [[ -n "$files" ]]; then
-                  echo "$files" | sed 's/^/      • /'
-                fi
-                sleep 0.5  # API Rate limit 방지
-              done
+              if echo "$folder_commits" | jq empty 2>/dev/null; then
+                for commit_sha in $(echo "$folder_commits" | jq -r '.[0:2][] | .sha' 2>/dev/null || echo ""); do
+                  if [[ -n "$commit_sha" ]]; then
+                    files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
+                      -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
+                      jq -r '.files[]? | select(.filename | startswith("'$target_folder'/")) | .filename' 2>/dev/null | head -3)
+                    if [[ -n "$files" ]]; then
+                      echo "$files" | sed 's/^/      • /'
+                    fi
+                    sleep 0.5  # API Rate limit 방지
+                  fi
+                done
+              fi
             else
               echo "   ❌ $target_folder 폴더에 커밋 없음"
               
@@ -83,19 +105,27 @@ jobs:
               all_commits=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits?author=$gh_id&since=$START_TIME&until=$END_TIME" \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}")
               
-              all_count=$(echo "$all_commits" | jq '. | length // 0')
+              if echo "$all_commits" | jq empty 2>/dev/null; then
+                all_count=$(echo "$all_commits" | jq '. | length // 0')
+              else
+                all_count=0
+              fi
               
               if [[ "$all_count" -gt 0 ]]; then
                 echo "   ⚠️  다른 폴더에 $all_count개 커밋 발견:"
-                for commit_sha in $(echo "$all_commits" | jq -r '.[0:2][] | .sha'); do
-                  files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
-                    -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
-                    jq -r '.files[]? | .filename' | head -3)
-                  if [[ -n "$files" ]]; then
-                    echo "$files" | sed 's/^/      • /'
-                  fi
-                  sleep 0.5
-                done
+                if echo "$all_commits" | jq empty 2>/dev/null; then
+                  for commit_sha in $(echo "$all_commits" | jq -r '.[0:2][] | .sha' 2>/dev/null || echo ""); do
+                    if [[ -n "$commit_sha" ]]; then
+                      files=$(curl -s "https://api.github.com/repos/$REPO_NAME/commits/$commit_sha" \
+                        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" | \
+                        jq -r '.files[]? | .filename' 2>/dev/null | head -3)
+                      if [[ -n "$files" ]]; then
+                        echo "$files" | sed 's/^/      • /'
+                      fi
+                      sleep 0.5
+                    fi
+                  done
+                fi
               fi
             fi
             
