@@ -12,9 +12,12 @@
 
 ## 🧾 Index
 
-| No.   | Title   | Site  | Level              | Code | Review |
-|-------|---------|--------|---------------------|------|--------|
-| 23971 | ZOAC 4  | 🟥 백준 | 🟫 B3 (Bronze 3)     | [📄](./code/B_B3_23971_ZOAC.java) | [📝](./review/B_B3_23971_ZOAC.md) |
+| No.   | Title          | Site  | Level              | Code | Review |
+|-------|----------------|--------|---------------------|------|--------|
+| 23971 | ZOAC 4         | 🟥 백준 | 🟫 B3 (Bronze 3)     | [📄](./code/B_B3_23971_ZOAC.java) | [📝](./review/B_B3_23971_ZOAC.md) |
+| 5073  | 삼각형과 세 변 | 🟥 백준 | 🟫 B3 (Bronze 3)     | [📄](./code/B_B3_5073_trianglecheck.java) | [📝](./review/B_B3_5073_trianglecheck.md) |
+
+
 
 </br>
 
