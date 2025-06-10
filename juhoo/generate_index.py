@@ -3,7 +3,7 @@ import re
 
 CODE_DIR = 'code'
 REVIEW_DIR = 'review'
-OUTPUT_FILE = 'INDEX.md'
+OUTPUT_FILE = 'README.md'
 
 header = """# 🧠 Juhoo's Algorithm Archive
 
@@ -26,9 +26,12 @@ header = """# 🧠 Juhoo's Algorithm Archive
 rows = []
 
 for filename in sorted(os.listdir(CODE_DIR)):
-    match = re.match(r'(B_B\d)_(\d+)_([a-zA-Z0-9]+)\.java', filename)
+    match = re.match(r'(B_B\d)_(\d+)_([a-zA-Z0-9_]+)\.java', filename)
+
     if match:
         level, num, title = match.groups()
+        print(f"[DEBUG] matched: {filename} → {num}, {title}")
+
         markdown = f'| {num} | {title} | 🟥 백준 | 🟫 {level[4:]} | [📄](./{CODE_DIR}/{filename}) | [📝](./{REVIEW_DIR}/{filename.replace(".java", ".md")}) |'
         rows.append(markdown)
 
