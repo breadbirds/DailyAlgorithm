@@ -19,20 +19,31 @@ header = """# 🧠 Juhoo's Algorithm Archive
 
 ## 🧾 Index
 
-| No.   | Title          | Site  | Level              | Code | Review |
-|-------|----------------|--------|---------------------|------|--------|
+| No.   | Title          | Site  | Level        | Code | Review |
+|-------|----------------|--------|--------------|------|--------|
 """
+
+# 레벨 약어 → 뱃지 매핑
+level_map = {
+    'B': '🟫 Bronze',
+    'S': '🟪 Silver',
+    'G': '🟨 Gold',
+    'P': '⬜ Platinum',
+    'D': '⬛ Diamond'
+}
 
 rows = []
 
 for filename in sorted(os.listdir(CODE_DIR)):
-    match = re.match(r'(B_B\d)_(\d+)_([a-zA-Z0-9_]+)\.java', filename)
+    match = re.match(r'B_([BSGPD])(\d)_(\d+)_([a-zA-Z0-9_]+)\.java', filename)
 
     if match:
-        level, num, title = match.groups()
-        print(f"[DEBUG] matched: {filename} → {num}, {title}")
+        tier, level_num, num, title = match.groups()
+        level_str = f"{level_map.get(tier, '❓')} {level_num}"
 
-        markdown = f'| {num} | {title} | 🟥 백준 | 🟫 {level[4:]} | [📄](./{CODE_DIR}/{filename}) | [📝](./{REVIEW_DIR}/{filename.replace(".java", ".md")}) |'
+        print(f"[DEBUG] matched: {filename} → {num}, {title}, {level_str}")
+
+        markdown = f'| {num} | {title} | 🟥 백준 | {level_str} | [📄](./{CODE_DIR}/{filename}) | [📝](./{REVIEW_DIR}/{filename.replace(".java", ".md")}) |'
         rows.append(markdown)
 
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
