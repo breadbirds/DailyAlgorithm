@@ -33,7 +33,7 @@ jobs:
           
           # 실제 폴더명으로 테스트 (GitHub에서 확인한 실제 폴더명 사용)
           USERS=("유진" "사란" "믿디" "숭디" "애용" "즈후")
-          GH_USERS=("breadbirds" "icpc365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")
+          GH_USERS=("breadbirds" "ipcp365" "itsanisland" "bmlsj" "hanayoung" "bluemango0312")
           FOLDERS=("yujin" "love" "migi" "soong" "ayoung" "juhoo")  # 실제 폴더명으로 변경
           
           echo "🔍 실제 폴더명 확인 중..."
