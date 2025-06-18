@@ -19,6 +19,7 @@
 | 2292 | Honeycomb | 🟥 백준 | 🟫 Bronze 2 | [📄](./code/B_B2_2292_Honeycomb.java) | [📝](./review/B_B2_2292_Honeycomb.md) |
 | 23971 | ZOAC | 🟥 백준 | 🟫 Bronze 3 | [📄](./code/B_B3_23971_ZOAC.java) | [📝](./review/B_B3_23971_ZOAC.md) |
 | 5073 | trianglecheck | 🟥 백준 | 🟫 Bronze 3 | [📄](./code/B_B3_5073_trianglecheck.java) | [📝](./review/B_B3_5073_trianglecheck.md) |
+| 10431 | lineUp | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_10431_lineUp.java) | [📝](./review/B_S5_10431_lineUp.md) |
 | 11723 | setManager | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_11723_setManager.java) | [📝](./review/B_S5_11723_setManager.md) |
 | 9655 | StoneGame | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_9655_StoneGame.java) | [📝](./review/B_S5_9655_StoneGame.md) |
 
