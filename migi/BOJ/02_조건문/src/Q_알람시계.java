@@ -9,19 +9,25 @@ public class Q_알람시계 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		int h = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken()) - 45;
+		int a = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken());
+		int c = Integer.parseInt(st.nextToken());
 		
-		if (m < 0) {
-			h -= 1;
-			m += 60;
-			
-			if (h < 0) {
-				h += 24;
-			}
-		} 
+		int result = 0;
 		
-		System.out.println(h + " " + m);
+		if (a == b && b == c) {
+			result = 10000 + a * 1000;
+		} else if (a == b && b != c) {
+			result = 1000 + a * 100;
+		} else if (b == c && a != b) {
+			result = 1000 + b * 100;
+		} else if (c == a && a != b) {
+			result = 1000 + c * 100;
+		} else {
+			result = Math.max(Math.max(a, b), Math.max(b, c)) * 100;
+		}
+		
+		System.out.println(result);
 	}
 
 }
