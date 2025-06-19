@@ -10,7 +10,7 @@ public class Q_AplusB_4 {
 		
 		String line = bf.readLine();
 		
-		while (line) {
+		while (line != null) {
 			StringTokenizer st = new StringTokenizer(line);
 			
 			int a = Integer.parseInt(st.nextToken());
