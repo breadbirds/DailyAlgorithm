@@ -33,9 +33,7 @@ public class Q_단어공부 {
 		
 		char result = ' ';
 		
-		if (str.length() == 0) {
-			result = ' ';
-		} else if (str.length() > 1 && map.get(keySet.get(0)) == map.get(keySet.get(1))) {
+		if (keySet.size() > 1 && map.get(keySet.get(0)).equals(map.get(keySet.get(1)))) {
 			result = '?';
 		} else {
 			result = keySet.get(0);
