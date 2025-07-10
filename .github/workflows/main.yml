@@ -177,22 +177,48 @@ jobs:
           LINE="$LINE|"
           echo "📋 최종 결과: $LINE"
           
-          # README.md 갱신
-          awk -v date="$TODAY" -v newline="$LINE" '
-          BEGIN{updated=0}
-          {
-            if ($0 ~ "\\| "date" \\|") {
+          # README.md 갱신 (월별로 <details> 태그로 묶기)
+          MONTH=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST" +"%Y-%m")
+          DETAILS_HEADER="### 📅 $MONTH 커밋 현황"
+          DETAILS_START="<details><summary>$DETAILS_HEADER</summary>"
+          DETAILS_END="</details>"
+          
+          awk -v date="$TODAY" -v newline="$LINE" -v month="$MONTH" -v details_start="$DETAILS_START" -v details_end="$DETAILS_END" '
+          BEGIN {
+            in_details = 0
+            printed = 0
+          }
+          /<details><summary>### 📅 "month" 커밋 현황<\/summary>/ {
+            in_details = 1
+            print
+            next
+          }
+          in_details && /<\/details>/ {
+            if (!printed) {
               print newline
-              updated=1
+              printed = 1
+            }
+            in_details = 0
+            print
+            next
+          }
+          {
+            if (in_details && $0 ~ "\\| "date" \\|") {
+              print newline
+              printed = 1
             } else {
-              print $0
+              print
             }
           }
-          END{
-            if (updated==0) {
+          END {
+            if (!printed) {
+              print ""
+              print details_start
               print newline
+              print details_end
             }
           }' README.md > tmp && mv tmp README.md
+
           
       - name: Commit updated README
         run: |
