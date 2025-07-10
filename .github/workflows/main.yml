@@ -177,71 +177,22 @@ jobs:
           LINE="$LINE|"
           echo "📋 최종 결과: $LINE"
           
-          # README.md 갱신 (월별로 <details> 태그로 묶기)
-          YEAR=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST" +%Y)
-          MONTH_NUM=$(TZ=Asia/Seoul date -d "$YESTERDAY_KST" +%m)
-          MONTH_NAME="$YEAR-$MONTH_NUM"
-          DETAILS_SUMMARY="📅 $MONTH_NAME 커밋 현황"
-          DETAILS_TAG="<details><summary>$DETAILS_SUMMARY</summary>"
-          LINE="$LINE|"
-          
-          # 임시 파일
-          TMP_README="README_TMP.md"
-          
-          if grep -q "$DETAILS_SUMMARY" README.md; then
-            echo "📁 기존 '$DETAILS_SUMMARY' 블록 발견 → 라인 추가 중..."
-          
-            awk -v line="$LINE" -v summary="$DETAILS_SUMMARY" '
-              BEGIN { in_block=0; inserted=0 }
-              {
-                if ($0 ~ "<summary>" summary "</summary>") {
-                  in_block = 1
-                  print
-                  next
-                }
-          
-                if (in_block && $0 ~ "</details>") {
-                  if (!inserted) {
-                    print line
-                    inserted=1
-                  }
-                  in_block=0
-                  print
-                  next
-                }
-          
-                if (in_block && $0 ~ "^\\| [0-9]{2}-[0-9]{2} ") {
-                  dates[$1] = 1
-                }
-          
-                if (in_block && $0 ~ "^\\| "line) {
-                  inserted=1
-                }
-          
-                print
-              }
-              END {
-                if (!inserted) {
-                  # nothing to do here; we inserted inside the block
-                }
-              }
-            ' README.md > "$TMP_README" && mv "$TMP_README" README.md
-          
-          else
-            echo "📁 '$DETAILS_SUMMARY' 블록 없음 → 새로 생성 중..."
-          
-            {
-              echo ""
-              echo "$DETAILS_TAG"
-              echo ""
-              echo "| 날짜 | 유진 | 사란 | 믿디 | 숭디 | 애용 | 즈후 |"
-              echo "|------|------|------|------|------|------|------|"
-              echo "$LINE"
-              echo "</details>"
-            } >> README.md
-          fi
-
-
+          # README.md 갱신
+          awk -v date="$TODAY" -v newline="$LINE" '
+          BEGIN{updated=0}
+          {
+            if ($0 ~ "\\| "date" \\|") {
+              print newline
+              updated=1
+            } else {
+              print $0
+            }
+          }
+          END{
+            if (updated==0) {
+              print newline
+            }
+          }' README.md > tmp && mv tmp README.md
           
       - name: Commit updated README
         run: |
