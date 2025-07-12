@@ -179,7 +179,7 @@ jobs:
           
           # README.md 갱신
           awk -v date="$TODAY" -v newline="$LINE" '
-          BEGIN{updated=0}
+          BEGIN{updated=0; ORS="\n" }
           {
             if ($0 ~ "\\| "date" \\|") {
               print newline
