@@ -1,42 +1,76 @@
+package source_code;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// íƒœìˆ˜ì˜ ìƒˆë¡œìš´ ì ìˆ˜ê°€ ë­í‚¹ ë¦¬ìŠ¤íŠ¸ì— ëª‡ ë“±ìœ¼ë¡œ ë“¤ì–´ê°ˆ ìˆ˜ ìˆëŠ”ì§€ ê³„ì‚°
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// ÀÔ·Â: N(¸®½ºÆ®ÀÇ Á¡¼ö °³¼ö), »õ·Î¿î Á¡¼ö, P(·©Å· ¸®½ºÆ®¿¡ ¿Ã¶ó °¥ ¼ö ÀÖ´Â Á¡¼ö °³¼ö)
+// ÀÔ·Â: N°³ÀÇ Á¡¼ö ºñ¿À¸§Â÷¼øÀ¸·Î Á¦°ø
+// Ãâ·Â: ÅÂ¼öÀÇ new Á¡¼öÀÇ µî¼ö
 
-        int N = sc.nextInt(); // í˜„ì¬ ì ìˆ˜ ê°œìˆ˜
-        int newScore = sc.nextInt(); // íƒœìˆ˜ì˜ ì ìˆ˜
-        int P = sc.nextInt(); // ë­í‚¹ì— ì˜¬ë¼ê°ˆ ìˆ˜ ìˆëŠ” ìµœëŒ€ ì¸ì› ìˆ˜
+// 1. ÀÔ·Â¹Ş±â
+// 1-1. Á¡¼ö °³¼ö, ÅÂ¼ö Á¡¼ö, ¸®½ºÆ® ÀüÃ¼ Å©±â ÀúÀå
+// 1-2. ÇöÀç ¸®½ºÆ®ÀÇ Á¡¼öµéÀ» ¸®½ºÆ®¿¡ ÀúÀå
 
-        List<Integer> scores = new ArrayList<>();
-        for (int i = 0; i < N; i++) {
-            scores.add(sc.nextInt());
-        }
+// 2. µî¼ö ±¸ÇÏ±â
 
-        int rank = 1; // ë“±ìˆ˜ëŠ” 1ë“±ë¶€í„° ì‹œì‘
-        for (int score : scores) {
-            if (score > newScore) {
-                rank++;
-            } else {
-                break;
-            }
-        }
+// 3. Ãâ·ÂÇÏ±â
 
-        // ë¦¬ìŠ¤íŠ¸ê°€ ë¹„ì–´ìˆê±°ë‚˜, ì•„ì§ ì—¬ìœ ê°€ ìˆë‹¤ë©´ ë“±ìˆ˜ ì¶œë ¥
-        if (N < P) {
-            System.out.println(rank);
-        }
-        // ë¦¬ìŠ¤íŠ¸ê°€ ê½‰ ì°¼ì„ ë•Œ
-        else {
-            // ë§Œì•½ ë§ˆì§€ë§‰ ì ìˆ˜ì™€ ë™ì ì´ê±°ë‚˜ ë” ë‚®ìœ¼ë©´ ëª» ë“¤ì–´ê°
-            if (N > 0 && scores.get(P - 1) >= newScore) {
-                System.out.println(-1);
-            } else {
-                System.out.println(rank);
-            }
-        }
-    }
+public class B_S4_1205_RankCalculator {
+	public static void main(String[] args) {
+		// 1. ÀÔ·Â¹Ş±â
+		Scanner sc = new Scanner(System.in);
+
+		// 1-1. Á¡¼ö °³¼ö, ÅÂ¼ö Á¡¼ö, ¸®½ºÆ® ÀüÃ¼ Å©±â ÀúÀå
+		int currentRankNum = sc.nextInt();
+		int newScore = sc.nextInt();
+		int fullNum = sc.nextInt();
+
+		// 1-2. ÇöÀç ¸®½ºÆ®ÀÇ Á¡¼öµéÀ» ¸®½ºÆ®¿¡ ÀúÀå
+		List<Integer> scores = new ArrayList<>();
+
+		for (int i = 0; i < currentRankNum; i++) {
+			scores.add(sc.nextInt());
+		}
+
+		// 2. µî¼ö ±¸ÇÏ±â
+		// 2-1. ¾Õ¿¡¼­ºÎÅÍ ÅÂ¼ö Á¡¼ö¿Í ºñ±³
+		int result = 0;
+		int i = scores.size() - 1;
+		int lastNum = (currentRankNum != 0) ? scores.get(scores.size() - 1) : 0;
+
+		while (true) {
+			// 2-5. ±âÁ¸ ¹è¿­¿¡ ÀÖ´Â Á¡¼ö °³¼ö°¡ 0ÀÌ¸é result¿¡ 1 ÀúÀå
+			if (currentRankNum == 0 && fullNum > 0) {
+				result = 1;
+				break;
+			}
+
+			// ¸¶Áö¸· ¼ıÀÚ¿Í ºñ±³ÇØ¼­ new numberº¸´Ù Å©°Å³ª °°À¸¸é -1 return (´Ù Ã¡À¸¸é)
+			if (lastNum >= newScore && scores.size() >= fullNum) {
+				result = -1;
+				break;
+			}
+
+			// ¸¶Áö¸· ¼ıÀÚ¿Í ºñ±³ÇØ¼­ new numberº¸´Ù ÀÛÀ¸¸é ¿ŞÂÊÀ¸·Î ÀÌµ¿ÇÏ¸é¼­ count
+			if ((scores.size() < fullNum) || (lastNum <= newScore)) {
+				while (i >= 0 && scores.get(i) <= newScore) {
+					i--;
+				}
+
+				if (i >= 0 && scores.get(i) == newScore) {
+					result = i + 1;
+				} else {
+					result = i + 2;
+				}
+
+				break;
+			}
+
+		}
+
+		// 3. Ãâ·ÂÇÏ±â
+		System.out.println(result);
+	}
+
 }
