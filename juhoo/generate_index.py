@@ -22,7 +22,7 @@ header = """# 🧠 Juhoo's Algorithm Archive
 ## 🧾 Index
 """
 
-# 레벨 뱃지 매핑
+# 티어 약어 → 뱃지 + 이름
 level_map = {
     'B': '🟫 Bronze',
     'S': '🟪 Silver',
@@ -31,7 +31,10 @@ level_map = {
     'D': '⬛ Diamond'
 }
 
-# 등급별 문제 분류
+# 티어 우선순위 (높을수록 앞)
+tier_priority = ['⬛ Diamond', '⬜ Platinum', '🟨 Gold', '🟪 Silver', '🟫 Bronze']
+
+# 티어별 row 그룹화
 grouped_rows = defaultdict(list)
 
 for filename in sorted(os.listdir(CODE_DIR)):
@@ -44,11 +47,19 @@ for filename in sorted(os.listdir(CODE_DIR)):
         row = f'| {num} | {title} | 🟥 백준 | {level_label} | [📄](./{CODE_DIR}/{filename}) | [📝](./{REVIEW_DIR}/{filename.replace(".java", ".md")}) |'
         grouped_rows[tier_group].append((int(num), row))
 
+# 현재 티어 중 가장 높은 것 찾기
+available_tiers = [t for t in tier_priority if t in grouped_rows]
+highest_tier = available_tiers[0] if available_tiers else None
+
 # README 구성
 readme_lines = [header]
 
-for tier in sorted(grouped_rows.keys()):
-    readme_lines.append(f'<details>\n<summary>{tier}</summary>\n')
+for tier in tier_priority:
+    if tier not in grouped_rows:
+        continue
+
+    tag = "details open" if tier == highest_tier else "details"
+    readme_lines.append(f'<{tag}>\n<summary>{tier}</summary>\n')
     readme_lines.append('\n| No. | Title | Site | Level | Code | Review |')
     readme_lines.append('|-----|-------|------|-------|------|--------|')
 
@@ -61,6 +72,6 @@ for tier in sorted(grouped_rows.keys()):
 readme_lines.append("\n</br>\n\n## 🛠 Tech Stack\n")
 readme_lines.append('[![Language: Java](https://img.shields.io/badge/Language-Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)')
 
-# 파일 저장
+# 저장
 with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     f.write('\n'.join(readme_lines))

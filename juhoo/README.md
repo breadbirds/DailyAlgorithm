@@ -12,7 +12,7 @@
 
 ## 🧾 Index
 
-<details>
+<details open>
 <summary>🟪 Silver</summary>
 
 
@@ -23,6 +23,7 @@
 | 4659 | Password | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_4659_Password.java) | [📝](./review/B_S5_4659_Password.md) |
 | 7568 | big | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_7568_big.java) | [📝](./review/B_S5_7568_big.md) |
 | 8979 | Olympics | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_8979_Olympics.java) | [📝](./review/B_S5_8979_Olympics.md) |
+| 9017 | CrossCountry | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_9017_CrossCountry.java) | [📝](./review/B_S3_9017_CrossCountry.md) |
 | 9655 | StoneGame | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_9655_StoneGame.java) | [📝](./review/B_S5_9655_StoneGame.md) |
 | 10431 | lineUp | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_10431_lineUp.java) | [📝](./review/B_S5_10431_lineUp.md) |
 | 11723 | setManager | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_11723_setManager.java) | [📝](./review/B_S5_11723_setManager.md) |
