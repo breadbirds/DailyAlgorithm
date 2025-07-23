@@ -21,6 +21,7 @@
 | 1205 | RankCalculator | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_1205_RankCalculator.java) | [📝](./review/B_S4_1205_RankCalculator.md) |
 | 1244 | SwitchOnOff | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_1244_SwitchOnOff.java) | [📝](./review/B_S4_1244_SwitchOnOff.md) |
 | 2164 | Card2 | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_2164_Card2.java) | [📝](./review/B_S4_2164_Card2.md) |
+| 2512 | budget | 🟥 백준 | 🟪 Silver 2 | [📄](./code/B_S2_2512_budget.java) | [📝](./review/B_S2_2512_budget.md) |
 | 4659 | Password | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_4659_Password.java) | [📝](./review/B_S5_4659_Password.md) |
 | 7568 | big | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_7568_big.java) | [📝](./review/B_S5_7568_big.md) |
 | 8979 | Olympics | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_8979_Olympics.java) | [📝](./review/B_S5_8979_Olympics.md) |
