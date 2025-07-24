@@ -32,6 +32,7 @@
 | 13305 | gasStation | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_13305_gasStation.java) | [📝](./review/B_S3_13305_gasStation.md) |
 | 17266 | DarkUnderpass | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_17266_DarkUnderpass.java) | [📝](./review/B_S4_17266_DarkUnderpass.md) |
 | 20920 | englishWordHard | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_20920_englishWordHard.java) | [📝](./review/B_S3_20920_englishWordHard.md) |
+| 21921 | blog | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_21921_blog.java) | [📝](./review/B_S3_21921_blog.md) |
 | 25757 | minigame | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_25757_minigame.java) | [📝](./review/B_S5_25757_minigame.md) |
 </details>
 
