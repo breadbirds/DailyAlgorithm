@@ -41,6 +41,7 @@
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_bfs.md) | BFS |
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_dfs.md) | DFS |
 | 9109 | [DSLR](https://www.acmicpc.net/problem/9109) | 백준 | 🥇 G4 | [📝](./gold/9019.DSLR.md) | BFS |
+| 5427 | [불](https://www.acmicpc.net/problem/5427) | 백준 | 🥇 G4 | [📝](./gold/5427_불.md) | BFS |
 | 2206 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | 백준 | 🥇 G3 | [📝](./gold/2206_벽부수고이동하기.md) | BFS |
 | 4179 | [불!](https://www.acmicpc.net/problem/4179) | 백준 | 🥇 G3 | [📝](./gold/4179_불!.md) | BFS |
 </details>
