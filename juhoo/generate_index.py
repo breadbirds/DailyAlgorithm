@@ -58,8 +58,9 @@ for filename in sorted(os.listdir(CODE_DIR)):
         level_label = f"{level_map[tier]} {level_num}"
         tier_group = level_map[tier]
 
-        filepath = os.path.join(CODE_DIR, filename)
-        reviewpath = os.path.join(REVIEW_DIR, filename.replace(".java", ".md"))
+        filepath = f"{CODE_DIR}/{filename}"
+        reviewpath = f"{REVIEW_DIR}/{filename.replace('.java', '.md')}"
+
         date = get_git_modified_date(filepath)
 
         row = f'| {num} | {title} | 🟥 백준 | {level_label} | [📄]({filepath}) | [📝]({reviewpath}) | {date} |'
