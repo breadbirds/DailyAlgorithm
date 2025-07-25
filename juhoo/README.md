@@ -13,41 +13,33 @@
 ## 🧾 Index
 
 <details open>
-<summary>🟪 Silver</summary>
+<summary>🩶 Silver</summary>
 
 
-| No. | Title | Site | Level | Code | Review |
-|-----|-------|------|-------|------|--------|
-| 1205 | RankCalculator | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_1205_RankCalculator.java) | [📝](./review/B_S4_1205_RankCalculator.md) |
-| 1244 | SwitchOnOff | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_1244_SwitchOnOff.java) | [📝](./review/B_S4_1244_SwitchOnOff.md) |
-| 2164 | Card2 | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_2164_Card2.java) | [📝](./review/B_S4_2164_Card2.md) |
-| 2512 | budget | 🟥 백준 | 🟪 Silver 2 | [📄](./code/B_S2_2512_budget.java) | [📝](./review/B_S2_2512_budget.md) |
-| 4659 | Password | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_4659_Password.java) | [📝](./review/B_S5_4659_Password.md) |
-| 7568 | big | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_7568_big.java) | [📝](./review/B_S5_7568_big.md) |
-| 8979 | Olympics | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_8979_Olympics.java) | [📝](./review/B_S5_8979_Olympics.md) |
-| 9017 | CrossCountry | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_9017_CrossCountry.java) | [📝](./review/B_S3_9017_CrossCountry.md) |
-| 9655 | StoneGame | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_9655_StoneGame.java) | [📝](./review/B_S5_9655_StoneGame.md) |
-| 10431 | lineUp | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_10431_lineUp.java) | [📝](./review/B_S5_10431_lineUp.md) |
-| 11723 | setManager | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_11723_setManager.java) | [📝](./review/B_S5_11723_setManager.md) |
-| 13305 | gasStation | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_13305_gasStation.java) | [📝](./review/B_S3_13305_gasStation.md) |
-| 17266 | DarkUnderpass | 🟥 백준 | 🟪 Silver 4 | [📄](./code/B_S4_17266_DarkUnderpass.java) | [📝](./review/B_S4_17266_DarkUnderpass.md) |
-| 20920 | englishWordHard | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_20920_englishWordHard.java) | [📝](./review/B_S3_20920_englishWordHard.md) |
-| 21921 | blog | 🟥 백준 | 🟪 Silver 3 | [📄](./code/B_S3_21921_blog.java) | [📝](./review/B_S3_21921_blog.md) |
-| 25757 | minigame | 🟥 백준 | 🟪 Silver 5 | [📄](./code/B_S5_25757_minigame.java) | [📝](./review/B_S5_25757_minigame.md) |
+| No. | Title | Site | Level | Code | Review | Date |
+|-----|-------|------|-------|------|--------|------|
+<details>
+<summary>🤎 Bronze</summary>
+
+
+| No. | Title | Site | Level | Code | Review | Date |
+|-----|-------|------|-------|------|--------|------|
+| 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code\B_B2_2292_Honeycomb.java) | [📝](review\B_B2_2292_Honeycomb.md) | 2025-06-10 |
 </details>
 
-<details>
-<summary>🟫 Bronze</summary>
+| 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code\B_B3_23971_ZOAC.java) | [📝](review\B_B3_23971_ZOAC.md) | 2025-06-10 |
+</details>
 
+| 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code\B_B3_5073_trianglecheck.java) | [📝](review\B_B3_5073_trianglecheck.md) | 2025-06-10 |
+</details>
 
-| No. | Title | Site | Level | Code | Review |
-|-----|-------|------|-------|------|--------|
-| 1157 | WordStudy | 🟥 백준 | 🟫 Bronze 1 | [📄](./code/B_B1_1157_WordStudy.java) | [📝](./review/B_B1_1157_WordStudy.md) |
-| 2292 | Honeycomb | 🟥 백준 | 🟫 Bronze 2 | [📄](./code/B_B2_2292_Honeycomb.java) | [📝](./review/B_B2_2292_Honeycomb.md) |
-| 2816 | digital_tv | 🟥 백준 | 🟫 Bronze 1 | [📄](./code/B_B1_2816_digital_tv.java) | [📝](./review/B_B1_2816_digital_tv.md) |
-| 5073 | trianglecheck | 🟥 백준 | 🟫 Bronze 3 | [📄](./code/B_B3_5073_trianglecheck.java) | [📝](./review/B_B3_5073_trianglecheck.md) |
-| 20125 | cookie | 🟥 백준 | 🟫 Bronze 4 | [📄](./code/B_B4_20125_cookie.java) | [📝](./review/B_B4_20125_cookie.md) |
-| 23971 | ZOAC | 🟥 백준 | 🟫 Bronze 3 | [📄](./code/B_B3_23971_ZOAC.java) | [📝](./review/B_B3_23971_ZOAC.md) |
+| 1157 | WordStudy | 🟥 백준 | 🤎 Bronze 1 | [📄](code\B_B1_1157_WordStudy.java) | [📝](review\B_B1_1157_WordStudy.md) | 2025-06-11 |
+</details>
+
+| 2816 | digital_tv | 🟥 백준 | 🤎 Bronze 1 | [📄](code\B_B1_2816_digital_tv.java) | [📝](review\B_B1_2816_digital_tv.md) | 2025-06-13 |
+</details>
+
+| 20125 | cookie | 🟥 백준 | 🤎 Bronze 4 | [📄](code\B_B4_20125_cookie.java) | [📝](review\B_B4_20125_cookie.md) | 2025-07-13 |
 </details>
 
 
