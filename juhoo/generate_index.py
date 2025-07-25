@@ -64,7 +64,8 @@ for filename in sorted(os.listdir(CODE_DIR)):
 
         row = f'| {num} | {title} | 🟥 백준 | {level_label} | [📄]({filepath}) | [📝]({reviewpath}) | {date} |'
         grouped_rows[tier_group].append((date, row))  # 날짜 기준 정렬용
-
+    else:
+        print(f"❌ Not matched: {filename}")
 
 # 현재 티어 중 가장 높은 것 찾기
 available_tiers = [t for t in tier_priority if t in grouped_rows]
@@ -83,8 +84,8 @@ for tier in tier_priority:
     readme_lines.append('|-----|-------|------|-------|------|--------|------|')
 
     # level_num 기준 내림차순 정렬
-for _, row in sorted(grouped_rows[tier], reverse=False):
-    readme_lines.append(row)
+    for _, row in sorted(grouped_rows[tier], reverse=True):
+        readme_lines.append(row)
 
 
     readme_lines.append('</details>\n')
