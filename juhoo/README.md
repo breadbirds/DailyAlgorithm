@@ -35,6 +35,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | [📝](review/B_S5_10431_lineUp.md) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | [📝](review/B_S5_9655_StoneGame.md) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | [📝](review/B_S5_11723_setManager.md) | 2025-06-13 |
+| 19941 | BurgerDistribution | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_19941_BurgerDistribution.java) | [📝](review/B_S3_19941_BurgerDistribution.md) |  |
 </details>
 
 <details>
