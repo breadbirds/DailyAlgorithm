@@ -86,6 +86,7 @@
 | No. | Title | Site | Level | Review |
 |-----|-------|------|-------|--------|
 | 15964 | [이상한 기호](https://www.acmicpc.net/problem/15964) | 백준 | 🥉 B5 | [📝](./bronze/15964_이상한기호.md) |
+| 15953 | [상금 헌터](https://www.acmicpc.net/problem/15953) | 백준 | 🥉 B5 | [📝](./bronze/15953_상금헌터.md) |
 | 2747 | [피보나치 수](https://www.acmicpc.net/problem/2747) | 백준 | 🥉 B2 | [📝](./bronze/2747_피보나치수.md) |
 | 1924 | [2007년](https://www.acmicpc.net/problem/1924) | 백준 | 🥉 B1 | [📝](./bronze/1924_2007년.md) |
 | 2331 | [반복수열](https://www.acmicpc.net/problem/2331) | 백준 | 🥈 S4 | [📝](./sliver/2331_반복수열.md) |
