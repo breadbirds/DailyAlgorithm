@@ -89,6 +89,7 @@
 | 15953 | [상금 헌터](https://www.acmicpc.net/problem/15953) | 백준 | 🥉 B5 | [📝](./bronze/15953_상금헌터.md) |
 | 2747 | [피보나치 수](https://www.acmicpc.net/problem/2747) | 백준 | 🥉 B2 | [📝](./bronze/2747_피보나치수.md) |
 | 10539 | [수빈이와 수열](https://www.acmicpc.net/problem/10539) | 백준 | 🥉 B2 | [📝](./bronze/10539_수빈이와수열.md) |
+| 15969 | [행복](https://www.acmicpc.net/problem/15969) | 백준 | 🥉 B2 | [📝](./bronze/15969_행복.md) |
 | 1924 | [2007년](https://www.acmicpc.net/problem/1924) | 백준 | 🥉 B1 | [📝](./bronze/1924_2007년.md) |
 | 2331 | [반복수열](https://www.acmicpc.net/problem/2331) | 백준 | 🥈 S4 | [📝](./sliver/2331_반복수열.md) |
 | 3190 | [뱀](https://www.acmicpc.net/problem/3190) | 백준 | 🥇 G4 | [📝](./gold/3190_뱀.md) |
