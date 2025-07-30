@@ -97,6 +97,14 @@
 </details>
 
 <details>
+  <summary>우선순위 큐</summary>
+| No. | Title | Site | Level | Review |
+|-----|-------|------|-------|--------|
+| 1655 | [가운데를 말해요](https://www.acmicpc.net/problem/1655) | 백준 | 🥇 G2  | [📝](./gold/1655_가운데를말해요.md) |
+</details>
+
+
+<details>
   <summary>문자열</summary>
 
 [ 문자열 리드미 📝](./bronze/문자열.md)
