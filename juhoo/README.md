@@ -18,6 +18,7 @@
 
 | No. | Title | Site | Level | Code | Review | Date |
 |-----|-------|------|-------|------|--------|------|
+| 15649 | NandM1 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15649_NandM1.java) | [📝](review/B_S3_15649_NandM1.md) | 2025-08-10 |
 | 17484 | JinwooMoonTrip | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_17484_JinwooMoonTrip.java) | [📝](review/B_S3_17484_JinwooMoonTrip.md) | 2025-08-07 |
 | 19941 | BurgerDistribution | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_19941_BurgerDistribution.java) | [📝](review/B_S3_19941_BurgerDistribution.md) | 2025-07-27 |
 | 1515 | NumberChain | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1515_NumberChain.java) | [📝](review/B_S3_1515_NumberChain.md) | 2025-07-25 |
@@ -37,7 +38,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | [📝](review/B_S5_10431_lineUp.md) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | [📝](review/B_S5_9655_StoneGame.md) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | [📝](review/B_S5_11723_setManager.md) | 2025-06-13 |
-| 15649 | NandM1 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15649_NandM1.java) | [📝](review/B_S3_15649_NandM1.md) |  |
+| 1182 | subSequenceSum | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1182_subSequenceSum.java) | [📝](review/B_S2_1182_subSequenceSum.md) |  |
 </details>
 
 <details>
