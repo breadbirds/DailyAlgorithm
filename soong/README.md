@@ -102,11 +102,22 @@
 
 <details>
   <summary>우선순위 큐</summary>
+
 | No. | Title | Site | Level | Review |
 |-----|-------|------|-------|--------|
 | 1655 | [가운데를 말해요](https://www.acmicpc.net/problem/1655) | 백준 | 🥇 G2  | [📝](./gold/1655_가운데를말해요.md) |
+
 </details>
 
+
+<details>
+  <summary>최단 거리</summary>
+
+| No. | Title | Site | Level | Review | Solution |
+|-----|-------|------|-------|--------|----------|
+| 1504 | [특정한 최단 경로](https://www.acmicpc.net/problem/1504) | 백준 | 🥇 G4  | [📝](./gold/1504_특정한최단경로.md) | 플로이드 워셜 |
+
+</details>
 
 <details>
   <summary>문자열</summary>
