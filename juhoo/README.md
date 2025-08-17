@@ -18,6 +18,11 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 11650 | sortingCoordinate | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11650_sortingCoordinate.java) | 2025-08-18 |
+| 15656 | NandM7 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15656_NandM7.java) | 2025-08-17 |
+| 2607 | SimilarWords | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2607_SimilarWords.java) | 2025-08-15 |
+| 10974 | AllPermutations | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_10974_AllPermutations.java) | 2025-08-15 |
+| 15655 | NandM6 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15655_NandM6.java) | 2025-08-14 |
 | 6603 | Lottery | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_6603_Lottery.java) | 2025-08-13 |
 | 1182 | subSequenceSum | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1182_subSequenceSum.java) | 2025-08-11 |
 | 15651 | NandM3 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15651_NandM3.java) | 2025-08-11 |
@@ -41,7 +46,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 15655 | NandM6 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15655_NandM6.java) |  |
 </details>
 
 <details>
@@ -50,6 +54,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 10989 | sortingNum3 | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_10989_sortingNum3.java) | 2025-08-18 |
+| 2750 | sortingNumbers | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2750_sortingNumbers.java) | 2025-08-18 |
 | 10872 | factorial | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_10872_factorial.java) | 2025-08-08 |
 | 20125 | cookie | 🟥 백준 | 🤎 Bronze 4 | [📄](code/B_B4_20125_cookie.java) | 2025-07-13 |
 | 2816 | digital tv | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_2816_digital_tv.java) | 2025-06-13 |
