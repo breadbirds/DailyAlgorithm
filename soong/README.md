@@ -40,6 +40,7 @@
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | 백준 | 🥇 G5 | [📝](./gold/13023_ABCDE.md) | 백트래킹 |
 | 1717 | [집합의 표현](https://www.acmicpc.net/problem/1717) | 백준 | 🥇 G5 | [📝](./gold/1717_집합의표현.md) | Union-Find |
 | 13549 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | 백준 | 🥇 G5 | [📝](./gold/13549_숨바꼭질3.md) | BFS |
+| 1068 | [트리](https://www.acmicpc.net/problem/1068) | 백준 | 🥇 G5 | [📝](./gold/1068_트리_dfs.md) | DFS |
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_bfs.md) | BFS |
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_dfs.md) | DFS |
 | 9109 | [DSLR](https://www.acmicpc.net/problem/9109) | 백준 | 🥇 G4 | [📝](./gold/9019.DSLR.md) | BFS |
@@ -48,7 +49,6 @@
 | 2636 | [치즈](https://www.acmicpc.net/problem/2636) | 백준 | 🥇 G4 | [📝](./gold/2636_치즈.md) | BFS |
 | 3055 | [탈출](https://www.acmicpc.net/problem/3055) | 백준 | 🥇 G4 | [📝](./gold/3055_탈출.md) | BFS |
 | 1043 | [거짓말](https://www.acmicpc.net/problem/1043) | 백준 | 🥇 G4 | [📝](./gold/1043_거짓말.md) | DFS |
-| 1068 | [트리](https://www.acmicpc.net/problem/1068) | 백준 | 🥇 G4 | [📝](./gold/1068_트리_dfs.md) | DFS |
 | 2206 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | 백준 | 🥇 G3 | [📝](./gold/2206_벽부수고이동하기.md) | BFS |
 | 4179 | [불!](https://www.acmicpc.net/problem/4179) | 백준 | 🥇 G3 | [📝](./gold/4179_불!.md) | BFS |
 </details>
@@ -62,6 +62,7 @@
 | 10773 | [제로](https://www.acmicpc.net/problem/10773) | 백준 | 🥈 S4 | [📝](./sliver/10773_제로.md) | Stack |
 | 10845 | [큐](https://www.acmicpc.net/problem/10845) | 백준 | 🥈 S4 | [📝](./sliver/10845_큐.md) | Queue |
 | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | 백준 | 🥈 S4 | [📝](./sliver/9012_괄호.md) | Stack |
+| 28278 | [스택 2](https://www.acmicpc.net/problem/28278) | 백준 | 🥈 S4 | [📝](./sliver/28278_스택2.md) | Stack |
 | 1406 | [에디터](https://www.acmicpc.net/problem/1406) | 백준 | 🥈 S2 | [📝](./sliver/1406_에디터.md) | Stack |
 
 </details>
