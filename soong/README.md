@@ -98,6 +98,7 @@
 | 15969 | [행복](https://www.acmicpc.net/problem/15969) | 백준 | 🥉 B2 | [📝](./bronze/15969_행복.md) |
 | 1924 | [2007년](https://www.acmicpc.net/problem/1924) | 백준 | 🥉 B1 | [📝](./bronze/1924_2007년.md) |
 | 2331 | [반복수열](https://www.acmicpc.net/problem/2331) | 백준 | 🥈 S4 | [📝](./sliver/2331_반복수열.md) |
+| 1475 | [방 번호](https://www.acmicpc.net/problem/1475) | 백준 | 🥈 S5 | [📝](./sliver/1475_방%20번호.md) |
 | 3190 | [뱀](https://www.acmicpc.net/problem/3190) | 백준 | 🥇 G4 | [📝](./gold/3190_뱀.md) |
 
 </details>
