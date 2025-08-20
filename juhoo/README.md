@@ -18,7 +18,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
-| 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) |  |
+| 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
 </details>
 
 <details>
@@ -57,6 +57,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
+| 10814 | sortingAge | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10814_sortingAge.java) |  |
 </details>
 
 <details>
