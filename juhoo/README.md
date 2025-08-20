@@ -13,11 +13,21 @@
 ## 🧾 Index
 
 <details open>
+<summary>💛 Gold</summary>
+
+
+| No. | Title | Site | Level | Code | Date |
+|-----|-------|------|-------|------|------|
+| 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) |  |
+</details>
+
+<details>
 <summary>🩶 Silver</summary>
 
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 11651 | sortingCoordinates2 | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11651_sortingCoordinates2.java) | 2025-08-20 |
 | 14225 | SubsequenceSum | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_14225_SubsequenceSum.java) | 2025-08-19 |
 | 11650 | sortingCoordinate | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11650_sortingCoordinate.java) | 2025-08-18 |
 | 15656 | NandM7 | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_15656_NandM7.java) | 2025-08-17 |
@@ -47,7 +57,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 11651 | sortingCoordinates2 | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11651_sortingCoordinates2.java) |  |
 </details>
 
 <details>
