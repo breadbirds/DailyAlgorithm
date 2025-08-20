@@ -63,6 +63,7 @@
 | 10845 | [큐](https://www.acmicpc.net/problem/10845) | 백준 | 🥈 S4 | [📝](./sliver/10845_큐.md) | Queue |
 | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | 백준 | 🥈 S4 | [📝](./sliver/9012_괄호.md) | Stack |
 | 28278 | [스택 2](https://www.acmicpc.net/problem/28278) | 백준 | 🥈 S4 | [📝](./sliver/28278_스택2.md) | Stack |
+| 1966 | [프린터 큐](https://www.acmicpc.net/problem/1966) | 백준 | 🥈 S3 | [📝](./sliver/1966_프린터큐.md) | Deque |
 | 1406 | [에디터](https://www.acmicpc.net/problem/1406) | 백준 | 🥈 S2 | [📝](./sliver/1406_에디터.md) | Stack |
 
 </details>
