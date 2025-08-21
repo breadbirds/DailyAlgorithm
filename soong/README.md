@@ -98,6 +98,7 @@
 | 10539 | [수빈이와 수열](https://www.acmicpc.net/problem/10539) | 백준 | 🥉 B2 | [📝](./bronze/10539_수빈이와수열.md) |
 | 15969 | [행복](https://www.acmicpc.net/problem/15969) | 백준 | 🥉 B2 | [📝](./bronze/15969_행복.md) |
 | 1924 | [2007년](https://www.acmicpc.net/problem/1924) | 백준 | 🥉 B1 | [📝](./bronze/1924_2007년.md) |
+| 1032 | [명령 프롬프트](https://www.acmicpc.net/problem/1032) | 백준 | 🥉 B1 | [📝](./bronze/1032_명령프롬프트.md) |
 | 2331 | [반복수열](https://www.acmicpc.net/problem/2331) | 백준 | 🥈 S4 | [📝](./sliver/2331_반복수열.md) |
 | 1475 | [방 번호](https://www.acmicpc.net/problem/1475) | 백준 | 🥈 S5 | [📝](./sliver/1475_방%20번호.md) |
 | 3190 | [뱀](https://www.acmicpc.net/problem/3190) | 백준 | 🥇 G4 | [📝](./gold/3190_뱀.md) |
