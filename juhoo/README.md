@@ -27,6 +27,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 10814 | sortingAge | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10814_sortingAge.java) | 2025-08-21 |
 | 11651 | sortingCoordinates2 | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11651_sortingCoordinates2.java) | 2025-08-20 |
 | 14225 | SubsequenceSum | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_14225_SubsequenceSum.java) | 2025-08-19 |
 | 11650 | sortingCoordinate | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11650_sortingCoordinate.java) | 2025-08-18 |
@@ -57,7 +58,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 10814 | sortingAge | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10814_sortingAge.java) |  |
+| 10819 | maximumDifference | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_10819_maximumDifference.java) |  |
 </details>
 
 <details>
@@ -75,6 +76,8 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
+| 2108 | statistics | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2108_statistics.java) |  |
+| 17362 | mathIsGym | 🟥 백준 | 🤎 Bronze 4 | [📄](code/B_B4_17362_mathIsGym.java) |  |
 </details>
 
 
