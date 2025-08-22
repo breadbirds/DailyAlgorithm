@@ -38,7 +38,6 @@
 | 2178 | [미로 탐색](https://www.acmicpc.net/problem/2178) | 백준 | 🥈 S1 | [📝](./sliver/2178_미로탐색.md) | BFS |
 | 2667 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | 백준 | 🥈 S1 | [📝](./sliver/2667_단지번호붙이기.md) | DFS |
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | 백준 | 🥇 G5 | [📝](./gold/13023_ABCDE.md) | 백트래킹 |
-| 1717 | [집합의 표현](https://www.acmicpc.net/problem/1717) | 백준 | 🥇 G5 | [📝](./gold/1717_집합의표현.md) | Union-Find |
 | 13549 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | 백준 | 🥇 G5 | [📝](./gold/13549_숨바꼭질3.md) | BFS |
 | 1068 | [트리](https://www.acmicpc.net/problem/1068) | 백준 | 🥇 G5 | [📝](./gold/1068_트리_dfs.md) | DFS |
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_bfs.md) | BFS |
@@ -51,6 +50,17 @@
 | 1043 | [거짓말](https://www.acmicpc.net/problem/1043) | 백준 | 🥇 G4 | [📝](./gold/1043_거짓말.md) | DFS |
 | 2206 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | 백준 | 🥇 G3 | [📝](./gold/2206_벽부수고이동하기.md) | BFS |
 | 4179 | [불!](https://www.acmicpc.net/problem/4179) | 백준 | 🥇 G3 | [📝](./gold/4179_불!.md) | BFS |
+</details>
+
+
+<details>
+  <summary>Union-Find</summary>
+
+| No. | Title | Site | Level | Review |
+|-----|-------|------|-------|--------|
+| 1717 | [집합의 표현](https://www.acmicpc.net/problem/1717) | 백준 | 🥇 G5 | [📝](./gold/1717_집합의표현.md) | 
+| 4195 | [친구 네트워크](https://www.acmicpc.net/problem/4195) | 백준 | 🥇 G2 | [📝](./gold/4195_친구네트워크.md) | 
+
 </details>
 
 <details>
