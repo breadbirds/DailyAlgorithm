@@ -112,6 +112,7 @@
 | 2331 | [반복수열](https://www.acmicpc.net/problem/2331) | 백준 | 🥈 S4 | [📝](./sliver/2331_반복수열.md) |
 | 1475 | [방 번호](https://www.acmicpc.net/problem/1475) | 백준 | 🥈 S5 | [📝](./sliver/1475_방%20번호.md) |
 | 3190 | [뱀](https://www.acmicpc.net/problem/3190) | 백준 | 🥇 G4 | [📝](./gold/3190_뱀.md) |
+| 17144 | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | 백준 | 🥇 G4 | [📝](./gold/17144_미세먼지%20안녕!/README.md) |
 
 </details>
 
