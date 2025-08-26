@@ -27,6 +27,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 13414 | CourseRegistration | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_13414_CourseRegistration.java) | 2025-08-25 |
+| 20310 | Thanos | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20310_Thanos.java) | 2025-08-25 |
 | 2910 | FrequencySort | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2910_FrequencySort.java) | 2025-08-23 |
 | 16922 | makeRomeNumber | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_16922_makeRomeNumber.java) | 2025-08-22 |
 | 10819 | maximumDifference | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_10819_maximumDifference.java) | 2025-08-21 |
@@ -61,8 +63,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 13414 | CourseRegistration | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_13414_CourseRegistration.java) |  |
-| 20310 | Thanos | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20310_Thanos.java) |  |
+| 2535 | AsiaInformationOlympiad | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_2535_AsiaInformationOlympiad.java) |  |
 </details>
 
 <details>
