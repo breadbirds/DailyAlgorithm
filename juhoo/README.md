@@ -27,6 +27,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1213 | MakePalindrome | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1213_MakePalindrome.java) | 2025-08-29 |
 | 1713 | cadidateRecommendation | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1713_cadidateRecommendation.java) | 2025-08-28 |
 | 5397 | KeyLogger | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_5397_KeyLogger.java) | 2025-08-26 |
 | 2535 | AsiaInformationOlympiad | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_2535_AsiaInformationOlympiad.java) | 2025-08-26 |
@@ -66,7 +67,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1213 | MakePalindrome | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1213_MakePalindrome.java) |  |
+| 10825 | KoreanEnglishMath | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10825_KoreanEnglishMath.java) |  |
 </details>
 
 <details>
