@@ -27,6 +27,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1406 | Editor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1406_Editor.java) | 2025-09-02 |
 | 20291 | OrganizeFiles | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20291_OrganizeFiles.java) | 2025-08-31 |
 | 3986 | GoodWord | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_3986_GoodWord.java) | 2025-08-31 |
 | 10825 | KoreanEnglishMath | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10825_KoreanEnglishMath.java) | 2025-08-30 |
@@ -70,7 +71,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1406 | Editor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1406_Editor.java) |  |
+| 10866 | Deque | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10866_Deque.java) |  |
 </details>
 
 <details>
