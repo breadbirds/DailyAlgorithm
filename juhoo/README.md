@@ -27,6 +27,16 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1406 | Editor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1406_Editor.java) | 2025-09-02 |
+| 20291 | OrganizeFiles | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20291_OrganizeFiles.java) | 2025-08-31 |
+| 3986 | GoodWord | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_3986_GoodWord.java) | 2025-08-31 |
+| 10825 | KoreanEnglishMath | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10825_KoreanEnglishMath.java) | 2025-08-30 |
+| 1213 | MakePalindrome | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1213_MakePalindrome.java) | 2025-08-29 |
+| 1713 | cadidateRecommendation | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1713_cadidateRecommendation.java) | 2025-08-28 |
+| 5397 | KeyLogger | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_5397_KeyLogger.java) | 2025-08-26 |
+| 2535 | AsiaInformationOlympiad | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_2535_AsiaInformationOlympiad.java) | 2025-08-26 |
+| 13414 | CourseRegistration | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_13414_CourseRegistration.java) | 2025-08-25 |
+| 20310 | Thanos | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20310_Thanos.java) | 2025-08-25 |
 | 2910 | FrequencySort | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2910_FrequencySort.java) | 2025-08-23 |
 | 16922 | makeRomeNumber | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_16922_makeRomeNumber.java) | 2025-08-22 |
 | 10819 | maximumDifference | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_10819_maximumDifference.java) | 2025-08-21 |
@@ -61,8 +71,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 13414 | CourseRegistration | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_13414_CourseRegistration.java) |  |
-| 20310 | Thanos | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20310_Thanos.java) |  |
+| 10866 | Deque | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10866_Deque.java) |  |
 </details>
 
 <details>

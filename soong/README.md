@@ -39,6 +39,7 @@
 | 2667 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | 백준 | 🥈 S1 | [📝](./sliver/2667_단지번호붙이기.md) | DFS |
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023) | 백준 | 🥇 G5 | [📝](./gold/13023_ABCDE.md) | 백트래킹 |
 | 13549 | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | 백준 | 🥇 G5 | [📝](./gold/13549_숨바꼭질3.md) | BFS |
+| 9205 | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | 백준 | 🥇 G5 | [📝](./gold/9205_맥주%20마시면서%20걸어가기/README.md) | BFS |
 | 1068 | [트리](https://www.acmicpc.net/problem/1068) | 백준 | 🥇 G5 | [📝](./gold/1068_트리_dfs.md) | DFS |
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_bfs.md) | BFS |
 | 1707 | [이분 그래프](https://www.acmicpc.net/problem/1707) | 백준 | 🥇 G4 | [📝](./gold/1707_이분그래프_dfs.md) | DFS |
@@ -111,6 +112,8 @@
 | 1032 | [명령 프롬프트](https://www.acmicpc.net/problem/1032) | 백준 | 🥉 B1 | [📝](./bronze/1032_명령프롬프트.md) |
 | 2331 | [반복수열](https://www.acmicpc.net/problem/2331) | 백준 | 🥈 S4 | [📝](./sliver/2331_반복수열.md) |
 | 1475 | [방 번호](https://www.acmicpc.net/problem/1475) | 백준 | 🥈 S5 | [📝](./sliver/1475_방%20번호.md) |
+| 4659 | [비밀번호 발음하기](https://www.acmicpc.net/problem/4659) | 백준 | 🥈 S5 | [📝](./sliver/4659_비밀번호발음하기/README.md) |
+| 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503) | 백준 | 🥇 G5 | [📝](./gold/14503_로봇%20청소기/README.md) |
 | 3190 | [뱀](https://www.acmicpc.net/problem/3190) | 백준 | 🥇 G4 | [📝](./gold/3190_뱀.md) |
 | 17144 | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | 백준 | 🥇 G4 | [📝](./gold/17144_미세먼지%20안녕!/README.md) |
 
