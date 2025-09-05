@@ -27,6 +27,9 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1021 | RotateQueue | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1021_RotateQueue.java) | 2025-09-05 |
+| 2346 | ExploreBalloon | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2346_ExploreBalloon.java) | 2025-09-05 |
+| 2003 | SumOfNumbers2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2003_SumOfNumbers2.java) | 2025-09-05 |
 | 1406 | Editor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1406_Editor.java) | 2025-09-02 |
 | 10866 | Deque | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10866_Deque.java) | 2025-09-02 |
 | 20291 | OrganizeFiles | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_20291_OrganizeFiles.java) | 2025-08-31 |
@@ -72,9 +75,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1021 | RotateQueue | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1021_RotateQueue.java) |  |
-| 2346 | ExploreBalloon | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2346_ExploreBalloon.java) |  |
-| 2003 | SumOfNumbers2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2003_SumOfNumbers2.java) |  |
+| 2559 | Sequence | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2559_Sequence.java) |  |
+| 3273 | SumOfNumbers | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_3273_SumOfNumbers.java) |  |
 </details>
 
 <details>
