@@ -38,6 +38,7 @@
 | 2178  | [미로 탐색](https://www.acmicpc.net/problem/2178)                | 백준 | 🥈 S1  | [📝](./sliver/2178_미로탐색.md)                        | BFS       |
 | 2667  | [단지번호붙이기](https://www.acmicpc.net/problem/2667)           | 백준 | 🥈 S1  | [📝](./sliver/2667_단지번호붙이기.md)                  | DFS       |
 | 13023 | [ABCDE](https://www.acmicpc.net/problem/13023)                   | 백준 | 🥇 G5  | [📝](./gold/13023_ABCDE.md)                            | 백트래킹  |
+| 1759  | [암호 만들기](https://www.acmicpc.net/problem/1759)              | 백준 | 🥇 G5  | [📝](./gold/1759_암호%20만들기/README.md)              | 백트래킹  |
 | 13549 | [숨바꼭질3](https://www.acmicpc.net/problem/13549)               | 백준 | 🥇 G5  | [📝](./gold/13549_숨바꼭질3.md)                        | BFS       |
 | 9205  | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)   | 백준 | 🥇 G5  | [📝](./gold/9205_맥주%20마시면서%20걸어가기/README.md) | BFS       |
 | 1068  | [트리](https://www.acmicpc.net/problem/1068)                     | 백준 | 🥇 G5  | [📝](./gold/1068_트리_dfs.md)                          | DFS       |
