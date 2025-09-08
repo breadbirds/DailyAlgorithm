@@ -27,6 +27,10 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 15903 | CoalescenceCardGame | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_15903_CoalescenceCardGame.java) | 2025-09-07 |
+| 2178 | MazeNavigation | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_2178_MazeNavigation.java) | 2025-09-07 |
+| 2559 | Sequence | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2559_Sequence.java) | 2025-09-06 |
+| 3273 | SumOfNumbers | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_3273_SumOfNumbers.java) | 2025-09-06 |
 | 1021 | RotateQueue | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1021_RotateQueue.java) | 2025-09-05 |
 | 2346 | ExploreBalloon | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2346_ExploreBalloon.java) | 2025-09-05 |
 | 2003 | SumOfNumbers2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2003_SumOfNumbers2.java) | 2025-09-05 |
@@ -75,8 +79,10 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 2559 | Sequence | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2559_Sequence.java) |  |
-| 3273 | SumOfNumbers | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_3273_SumOfNumbers.java) |  |
+| 11725 | FindParentsOfTree | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11725_FindParentsOfTree.java) |  |
+| 17204 | GameOfDeath | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_17204_GameOfDeath.java) |  |
+| 16173 | JumpKingJelly | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_16173_JumpKingJelly.java) |  |
+| 9372 | TravelOfSangeun | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_9372_TravelOfSangeun.java) |  |
 </details>
 
 <details>
