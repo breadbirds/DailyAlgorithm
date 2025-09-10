@@ -19,6 +19,8 @@
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
+| 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) |  |
+| 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) |  |
 </details>
 
 <details>
@@ -27,6 +29,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 14244 | MakeTree | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_14244_MakeTree.java) | 2025-09-09 |
 | 11725 | FindParentsOfTree | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11725_FindParentsOfTree.java) | 2025-09-08 |
 | 17204 | GameOfDeath | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_17204_GameOfDeath.java) | 2025-09-08 |
 | 16173 | JumpKingJelly | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_16173_JumpKingJelly.java) | 2025-09-08 |
@@ -83,7 +86,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 14244 | MakeTree | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_14244_MakeTree.java) |  |
 </details>
 
 <details>
@@ -103,6 +105,7 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
+| 4153 | RightTriangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_4153_RightTriangle.java) |  |
 </details>
 
 
