@@ -18,9 +18,9 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
+| 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) |  |
-| 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) |  |
 </details>
 
 <details>
@@ -86,6 +86,9 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
+| 5525 | IOIOI | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_5525_IOIOI.java) |  |
+| 1436 | MovieDirectorShom | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1436_MovieDirectorShom.java) |  |
+| 1543 | SearchDocuments | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1543_SearchDocuments.java) |  |
 </details>
 
 <details>
@@ -94,6 +97,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 4153 | RightTriangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_4153_RightTriangle.java) | 2025-09-10 |
 | 2108 | statistics | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2108_statistics.java) | 2025-08-21 |
 | 17362 | mathIsGym | 🟥 백준 | 🤎 Bronze 4 | [📄](code/B_B4_17362_mathIsGym.java) | 2025-08-21 |
 | 10989 | sortingNum3 | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_10989_sortingNum3.java) | 2025-08-18 |
@@ -105,7 +109,6 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 4153 | RightTriangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_4153_RightTriangle.java) |  |
 </details>
 
 
