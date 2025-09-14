@@ -29,6 +29,9 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 9342 | Chromosome | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_9342_Chromosome.java) | 2025-09-13 |
+| 1316 | CheckerOfGroupWord | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1316_CheckerOfGroupWord.java) | 2025-09-13 |
+| 14405 | Pikachu | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_14405_Pikachu.java) | 2025-09-13 |
 | 5525 | IOIOI | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_5525_IOIOI.java) | 2025-09-11 |
 | 1436 | MovieDirectorShom | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1436_MovieDirectorShom.java) | 2025-09-11 |
 | 1543 | SearchDocuments | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1543_SearchDocuments.java) | 2025-09-11 |
@@ -89,9 +92,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 9342 | Chromosome | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_9342_Chromosome.java) |  |
-| 1316 | CheckerOfGroupWord | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1316_CheckerOfGroupWord.java) |  |
-| 14405 | Pikachu | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_14405_Pikachu.java) |  |
 </details>
 
 <details>
@@ -112,6 +112,7 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
+| 11654 | ASCIIcode | 🟥 백준 | 🤎 Bronze 5 | [📄](code/B_B5_11654_ASCIIcode.java) |  |
 </details>
 
 
