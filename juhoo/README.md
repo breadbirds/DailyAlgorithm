@@ -100,6 +100,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 11654 | ASCIIcode | 🟥 백준 | 🤎 Bronze 5 | [📄](code/B_B5_11654_ASCIIcode.java) | 2025-09-14 |
 | 4153 | RightTriangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_4153_RightTriangle.java) | 2025-09-10 |
 | 2108 | statistics | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2108_statistics.java) | 2025-08-21 |
 | 17362 | mathIsGym | 🟥 백준 | 🤎 Bronze 4 | [📄](code/B_B4_17362_mathIsGym.java) | 2025-08-21 |
@@ -112,7 +113,8 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 11654 | ASCIIcode | 🟥 백준 | 🤎 Bronze 5 | [📄](code/B_B5_11654_ASCIIcode.java) |  |
+| 1032 | CmdPrompt | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_1032_CmdPrompt.java) |  |
+| 16171 | IHaveFewFriends | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_16171_IHaveFewFriends.java) |  |
 </details>
 
 
