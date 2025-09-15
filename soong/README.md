@@ -92,11 +92,12 @@
 <details>
   <summary>그리디</summary>
 
-| No.  | Title                                                 | Site | Level | Review                                          |
-| ---- | ----------------------------------------------------- | ---- | ----- | ----------------------------------------------- |
-| 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 백준 | 🥈 S2  | [📝](./baekjoon/sliver/1541_잃어버린괄호.md)     |
-| 1931 | [회의실 배정](https://www.acmicpc.net/problem/1931)   | 백준 | 🥇 G5  | [📝](./baekjoon/gold/1931_회의실배정.md)         |
-| 1202 | [보석 도둑](https://www.acmicpc.net/problem/1202)     | 백준 | 🥇 G2  | [📝](./baekjoon/gold/1202_보석%20도둑/README.md) |
+| No.   | Title                                                 | Site | Level | Review                                          |
+| ----- | ----------------------------------------------------- | ---- | ----- | ----------------------------------------------- |
+| 1541  | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 백준 | 🥈 S2  | [📝](./baekjoon/sliver/1541_잃어버린괄호.md)     |
+| 1931  | [회의실 배정](https://www.acmicpc.net/problem/1931)   | 백준 | 🥇 G5  | [📝](./baekjoon/gold/1931_회의실배정.md)         |
+| 12904 | [A와 B](https://www.acmicpc.net/problem/12904)        | 백준 | 🥇 G5  | [📝](./baekjoon/gold/12904_A와%20B/README.md)    |
+| 1202  | [보석 도둑](https://www.acmicpc.net/problem/1202)     | 백준 | 🥇 G2  | [📝](./baekjoon/gold/1202_보석%20도둑/README.md) |
 
 </details>
 
