@@ -92,6 +92,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
+| 15904 | UCPC | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_15904_UCPC.java) |  |
 </details>
 
 <details>
@@ -100,6 +101,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1032 | CmdPrompt | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_1032_CmdPrompt.java) | 2025-09-15 |
+| 16171 | IHaveFewFriends | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_16171_IHaveFewFriends.java) | 2025-09-15 |
 | 11654 | ASCIIcode | 🟥 백준 | 🤎 Bronze 5 | [📄](code/B_B5_11654_ASCIIcode.java) | 2025-09-14 |
 | 4153 | RightTriangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_4153_RightTriangle.java) | 2025-09-10 |
 | 2108 | statistics | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2108_statistics.java) | 2025-08-21 |
@@ -113,8 +116,9 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 1032 | CmdPrompt | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_1032_CmdPrompt.java) |  |
-| 16171 | IHaveFewFriends | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_16171_IHaveFewFriends.java) |  |
+| 2231 | DecompositionSum | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2231_DecompositionSum.java) |  |
+| 2798 | Blackjack | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2798_Blackjack.java) |  |
+| 2501 | divisor | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_2501_divisor.java) |  |
 </details>
 
 
