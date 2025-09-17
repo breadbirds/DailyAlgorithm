@@ -29,6 +29,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 3085 | CandyGame | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_3085_CandyGame.java) | 2025-09-16 |
 | 15904 | UCPC | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_15904_UCPC.java) | 2025-09-15 |
 | 9342 | Chromosome | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_9342_Chromosome.java) | 2025-09-13 |
 | 1316 | CheckerOfGroupWord | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1316_CheckerOfGroupWord.java) | 2025-09-13 |
@@ -93,7 +94,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 3085 | CandyGame | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_3085_CandyGame.java) |  |
+| 1676 | NumberZeroFactorial | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1676_NumberZeroFactorial.java) |  |
 </details>
 
 <details>
@@ -102,6 +103,9 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1978 | FindDivisors | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_1978_FindDivisors.java) | 2025-09-16 |
+| 2581 | PromeNumber | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2581_PromeNumber.java) | 2025-09-16 |
+| 5086 | MultipleAndDivisor | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5086_MultipleAndDivisor.java) | 2025-09-16 |
 | 1032 | CmdPrompt | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_1032_CmdPrompt.java) | 2025-09-15 |
 | 16171 | IHaveFewFriends | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_16171_IHaveFewFriends.java) | 2025-09-15 |
 | 2231 | DecompositionSum | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2231_DecompositionSum.java) | 2025-09-15 |
@@ -120,9 +124,7 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 1978 | FindDivisors | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_1978_FindDivisors.java) |  |
-| 2581 | PromeNumber | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2581_PromeNumber.java) |  |
-| 5086 | MultipleAndDivisor | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5086_MultipleAndDivisor.java) |  |
+| 1037 | Divisor | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_1037_Divisor.java) |  |
 </details>
 
 
