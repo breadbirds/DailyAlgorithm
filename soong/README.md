@@ -99,6 +99,7 @@
 | 12904 | [A와 B](https://www.acmicpc.net/problem/12904)        | 백준 | 🥇 G5  | [📝](./baekjoon/gold/12904_A와%20B/README.md)    |
 | 1744  | [수 묶기](https://www.acmicpc.net/problem/1744)       | 백준 | 🥇 G4  | [📝](./baekjoon/gold/1744_수%20묶기/README.md)   |
 | 1202  | [보석 도둑](https://www.acmicpc.net/problem/1202)     | 백준 | 🥇 G2  | [📝](./baekjoon/gold/1202_보석%20도둑/README.md) |
+| 1781  | [컵라면](https://www.acmicpc.net/problem/1781)        | 백준 | 🥇 G2  | [📝](./baekjoon/gold/1781_컵라면/README.md)      |
 
 </details>
 
