@@ -29,6 +29,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 2004 | CombinationZeroCount | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2004_CombinationZeroCount.java) | 2025-09-18 |
 | 1676 | NumberZeroFactorial | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1676_NumberZeroFactorial.java) | 2025-09-17 |
 | 3085 | CandyGame | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_3085_CandyGame.java) | 2025-09-16 |
 | 15904 | UCPC | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_15904_UCPC.java) | 2025-09-15 |
@@ -95,7 +96,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 2004 | CombinationZeroCount | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2004_CombinationZeroCount.java) |  |
 </details>
 
 <details>
@@ -104,6 +104,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1929 | FindPrimeNumber | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_1929_FindPrimeNumber.java) | 2025-09-18 |
 | 1037 | Divisor | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_1037_Divisor.java) | 2025-09-17 |
 | 1978 | FindDivisors | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_1978_FindDivisors.java) | 2025-09-16 |
 | 2581 | PromeNumber | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2581_PromeNumber.java) | 2025-09-16 |
@@ -126,7 +127,9 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 1929 | FindPrimeNumber | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_1929_FindPrimeNumber.java) |  |
+| 1085 | EscapeRectangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_1085_EscapeRectangle.java) |  |
+| 3009 | ForthPoint | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_3009_ForthPoint.java) |  |
+| 27323 | rectangle | 🟥 백준 | 🤎 Bronze 5 | [📄](code/B_B5_27323_rectangle.java) |  |
 </details>
 
 
