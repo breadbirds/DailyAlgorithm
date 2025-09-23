@@ -29,6 +29,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 17427 | SumOfDivisor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_17427_SumOfDivisor.java) | 2025-09-22 |
+| 11047 | Coin0 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11047_Coin0.java) | 2025-09-22 |
 | 2004 | CombinationZeroCount | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2004_CombinationZeroCount.java) | 2025-09-18 |
 | 1676 | NumberZeroFactorial | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1676_NumberZeroFactorial.java) | 2025-09-17 |
 | 3085 | CandyGame | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_3085_CandyGame.java) | 2025-09-16 |
@@ -96,8 +98,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 17427 | SumOfDivisor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_17427_SumOfDivisor.java) |  |
-| 11047 | Coin0 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11047_Coin0.java) |  |
+| 10816 | NumberCard2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10816_NumberCard2.java) |  |
+| 1920 | FindNumber | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1920_FindNumber.java) |  |
 </details>
 
 <details>
@@ -106,6 +108,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 14215 | ThreeSticks | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_14215_ThreeSticks.java) | 2025-09-22 |
+| 3053 | TaxicabGeometry | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_3053_TaxicabGeometry.java) | 2025-09-22 |
 | 1085 | EscapeRectangle | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_1085_EscapeRectangle.java) | 2025-09-21 |
 | 3009 | ForthPoint | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_3009_ForthPoint.java) | 2025-09-21 |
 | 27323 | rectangle | 🟥 백준 | 🤎 Bronze 5 | [📄](code/B_B5_27323_rectangle.java) | 2025-09-21 |
@@ -132,8 +136,6 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 14215 | ThreeSticks | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_14215_ThreeSticks.java) |  |
-| 3053 | TaxicabGeometry | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_3053_TaxicabGeometry.java) |  |
 </details>
 
 
