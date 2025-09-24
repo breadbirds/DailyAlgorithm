@@ -29,6 +29,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 10816 | NumberCard2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10816_NumberCard2.java) | 2025-09-23 |
+| 1920 | FindNumber | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1920_FindNumber.java) | 2025-09-23 |
 | 17427 | SumOfDivisor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_17427_SumOfDivisor.java) | 2025-09-22 |
 | 11047 | Coin0 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11047_Coin0.java) | 2025-09-22 |
 | 2004 | CombinationZeroCount | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2004_CombinationZeroCount.java) | 2025-09-18 |
@@ -98,8 +100,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 10816 | NumberCard2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10816_NumberCard2.java) |  |
-| 1920 | FindNumber | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1920_FindNumber.java) |  |
+| 2805 | CuttingWood | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2805_CuttingWood.java) |  |
 </details>
 
 <details>
