@@ -21,6 +21,7 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
+| 3079 | Immigration | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_3079_Immigration.java) |  |
 </details>
 
 <details>
@@ -29,6 +30,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 2805 | CuttingWood | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2805_CuttingWood.java) | 2025-09-24 |
 | 10816 | NumberCard2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10816_NumberCard2.java) | 2025-09-23 |
 | 1920 | FindNumber | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1920_FindNumber.java) | 2025-09-23 |
 | 17427 | SumOfDivisor | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_17427_SumOfDivisor.java) | 2025-09-22 |
@@ -100,7 +102,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 2805 | CuttingWood | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2805_CuttingWood.java) |  |
+| 1654 | CuttingLANCable | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1654_CuttingLANCable.java) |  |
 </details>
 
 <details>
