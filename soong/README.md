@@ -52,6 +52,7 @@
 | 1043  | [거짓말](https://www.acmicpc.net/problem/1043)                   | 백준 | 🥇 G4  | [📝](./baekjoon/gold/1043_거짓말.md)                            | DFS       |
 | 2206  | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)       | 백준 | 🥇 G3  | [📝](./baekjoon/gold/2206_벽부수고이동하기.md)                  | BFS       |
 | 4179  | [불!](https://www.acmicpc.net/problem/4179)                      | 백준 | 🥇 G3  | [📝](./baekjoon/gold/4179_불!.md)                               | BFS       |
+| 16236 | [아기상어](https://www.acmicpc.net/problem/16236)                | 백준 | 🥇 G3  | [📝](./baekjoon/gold/16236_아기상어/README.md)                  | BFS       |
 </details>
 
 
