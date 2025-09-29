@@ -78,6 +78,7 @@
 | 28278 | [스택 2](https://www.acmicpc.net/problem/28278)          | 백준 | 🥈 S4  | [📝](./baekjoon/sliver/28278_스택2.md)          | Stack    |
 | 1966  | [프린터 큐](https://www.acmicpc.net/problem/1966)        | 백준 | 🥈 S3  | [📝](./baekjoon/sliver/1966_프린터큐.md)        | Deque    |
 | 1406  | [에디터](https://www.acmicpc.net/problem/1406)           | 백준 | 🥈 S2  | [📝](./baekjoon/sliver/1406_에디터.md)          | Stack    |
+| 17298 | [오큰수](https://www.acmicpc.net/problem/17298)          | 백준 | 🥇 G4  | [📝](./baekjoon/gold/17298_오큰수/README.md)    | Stack    |
 
 </details>
 
