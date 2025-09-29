@@ -30,6 +30,9 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1927 | minHeap | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1927_minHeap.java) | 2025-09-26 |
+| 19637 | WriteIfForMe | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_19637_WriteIfForMe.java) | 2025-09-26 |
+| 22233 | GahyeAndKeywords | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_22233_GahyeAndKeywords.java) | 2025-09-26 |
 | 1654 | CuttingLANCable | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1654_CuttingLANCable.java) | 2025-09-25 |
 | 2805 | CuttingWood | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2805_CuttingWood.java) | 2025-09-24 |
 | 10816 | NumberCard2 | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_10816_NumberCard2.java) | 2025-09-23 |
@@ -103,9 +106,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1927 | minHeap | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1927_minHeap.java) |  |
-| 19637 | WriteIfForMe | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_19637_WriteIfForMe.java) |  |
-| 22233 | GahyeAndKeywords | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_22233_GahyeAndKeywords.java) |  |
+| 20006 | RankedQueue | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_20006_RankedQueue.java) |  |
 </details>
 
 <details>
