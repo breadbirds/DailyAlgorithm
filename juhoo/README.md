@@ -30,6 +30,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 14940 | EasyShortestPath | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_14940_EasyShortestPath.java) | 2025-10-02 |
+| 20922 | IHateOverlaps | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_20922_IHateOverlaps.java) | 2025-10-02 |
 | 1138 | StandInALine | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1138_StandInALine.java) | 2025-10-01 |
 | 2075 | theNthLargestNumber | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2075_theNthLargestNumber.java) | 2025-10-01 |
 | 2304 | WarehousePolygon | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2304_WarehousePolygon.java) | 2025-09-30 |
@@ -110,8 +112,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 14940 | EasyShortestPath | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_14940_EasyShortestPath.java) |  |
-| 20922 | IHateOverlaps | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_20922_IHateOverlaps.java) |  |
+| 1463 | MakeItOne | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1463_MakeItOne.java) |  |
 </details>
 
 <details>
