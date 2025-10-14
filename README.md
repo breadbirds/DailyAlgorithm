@@ -1,6 +1,4 @@
 
-<img width="621" height="115" alt="image" src="https://github.com/user-attachments/assets/5b91c68f-9c75-4b87-b4d6-2d4458dfcf2a" />
-
 
 # 🌱 1일 1알고리즘 스터디
 
