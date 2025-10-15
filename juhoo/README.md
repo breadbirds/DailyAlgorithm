@@ -22,6 +22,7 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
+| 1744 | GroupingNumbers | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_1744_GroupingNumbers.java) |  |
 </details>
 
 <details>
@@ -30,6 +31,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 11399 | ATM | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11399_ATM.java) | 2025-10-14 |
+| 14916 | Change | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_14916_Change.java) | 2025-10-14 |
 | 9461 | PadovanSequence | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_9461_PadovanSequence.java) | 2025-10-13 |
 | 11726 | 2xNTiling | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_11726_2xNTiling.java) | 2025-10-12 |
 | 1463 | MakeItOne | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1463_MakeItOne.java) | 2025-10-11 |
@@ -115,8 +118,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 11399 | ATM | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11399_ATM.java) |  |
-| 14916 | Change | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_14916_Change.java) |  |
+| 1026 | Treasure | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1026_Treasure.java) |  |
+| 2217 | Rope | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2217_Rope.java) |  |
 </details>
 
 <details>
@@ -125,6 +128,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 5585 | Change | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_5585_Change.java) | 2025-10-14 |
 | 2720 | LaundromatOwnerDonghyuk | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_2720_LaundromatOwnerDonghyuk.java) | 2025-10-13 |
 | 14215 | ThreeSticks | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_14215_ThreeSticks.java) | 2025-09-22 |
 | 3053 | TaxicabGeometry | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_3053_TaxicabGeometry.java) | 2025-09-22 |
@@ -154,7 +158,6 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
-| 5585 | Change | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_5585_Change.java) |  |
 </details>
 
 
