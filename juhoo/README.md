@@ -18,11 +18,12 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1744 | GroupingNumbers | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_1744_GroupingNumbers.java) | 2025-10-15 |
 | 3079 | Immigration | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_3079_Immigration.java) | 2025-09-25 |
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 1744 | GroupingNumbers | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_1744_GroupingNumbers.java) |  |
+| 1931 | MeetingRoomBooking | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1931_MeetingRoomBooking.java) |  |
 </details>
 
 <details>
@@ -31,6 +32,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1026 | Treasure | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1026_Treasure.java) | 2025-10-15 |
+| 2217 | Rope | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2217_Rope.java) | 2025-10-15 |
 | 11399 | ATM | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11399_ATM.java) | 2025-10-14 |
 | 14916 | Change | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_14916_Change.java) | 2025-10-14 |
 | 9461 | PadovanSequence | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_9461_PadovanSequence.java) | 2025-10-13 |
@@ -118,8 +121,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1026 | Treasure | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1026_Treasure.java) |  |
-| 2217 | Rope | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2217_Rope.java) |  |
 </details>
 
 <details>
