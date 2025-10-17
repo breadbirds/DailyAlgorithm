@@ -18,12 +18,12 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1931 | MeetingRoomBooking | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1931_MeetingRoomBooking.java) | 2025-10-16 |
 | 1744 | GroupingNumbers | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_1744_GroupingNumbers.java) | 2025-10-15 |
 | 3079 | Immigration | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_3079_Immigration.java) | 2025-09-25 |
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 1931 | MeetingRoomBooking | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1931_MeetingRoomBooking.java) |  |
 </details>
 
 <details>
@@ -121,6 +121,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
+| 1541 | lostParentheses | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1541_lostParentheses.java) |  |
 </details>
 
 <details>
