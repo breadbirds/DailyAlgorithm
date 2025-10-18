@@ -32,6 +32,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1541 | lostParentheses | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1541_lostParentheses.java) | 2025-10-17 |
 | 1026 | Treasure | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1026_Treasure.java) | 2025-10-15 |
 | 2217 | Rope | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2217_Rope.java) | 2025-10-15 |
 | 11399 | ATM | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_11399_ATM.java) | 2025-10-14 |
@@ -121,7 +122,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1541 | lostParentheses | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1541_lostParentheses.java) |  |
+| 1449 | Repairman | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1449_Repairman.java) |  |
 </details>
 
 <details>
