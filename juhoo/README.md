@@ -32,6 +32,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1449 | Repairman | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1449_Repairman.java) | 2025-10-18 |
 | 1541 | lostParentheses | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1541_lostParentheses.java) | 2025-10-17 |
 | 1026 | Treasure | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_1026_Treasure.java) | 2025-10-15 |
 | 2217 | Rope | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_2217_Rope.java) | 2025-10-15 |
@@ -122,7 +123,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1449 | Repairman | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1449_Repairman.java) |  |
+| 1002 | Turret | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1002_Turret.java) |  |
 </details>
 
 <details>
@@ -161,6 +162,7 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
+| 11050 | BinomialCoefficient | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_11050_BinomialCoefficient.java) |  |
 </details>
 
 
