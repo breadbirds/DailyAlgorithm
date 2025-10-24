@@ -32,6 +32,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 4963 | NumberOfIslands | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_4963_NumberOfIslands.java) | 2025-10-23 |
+| 2579 | climbingStairs | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2579_climbingStairs.java) | 2025-10-23 |
 | 2667 | NumberingComplexes | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_2667_NumberingComplexes.java) | 2025-10-22 |
 | 11051 | BinomialCoefficient2 | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11051_BinomialCoefficient2.java) | 2025-10-22 |
 | 1010 | buildBridge | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1010_buildBridge.java) | 2025-10-22 |
@@ -127,8 +129,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 4963 | NumberOfIslands | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_4963_NumberOfIslands.java) |  |
-| 2579 | climbingStairs | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2579_climbingStairs.java) |  |
+| 1932 | IntegerTriangle | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1932_IntegerTriangle.java) |  |
 </details>
 
 <details>
@@ -168,6 +169,7 @@
 | 2292 | Honeycomb | 🟥 백준 | 🤎 Bronze 2 | [📄](code/B_B2_2292_Honeycomb.java) | 2025-06-10 |
 | 23971 | ZOAC | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_23971_ZOAC.java) | 2025-06-10 |
 | 5073 | trianglecheck | 🟥 백준 | 🤎 Bronze 3 | [📄](code/B_B3_5073_trianglecheck.java) | 2025-06-10 |
+| 2775 | BecomingThePresident | 🟥 백준 | 🤎 Bronze 1 | [📄](code/B_B1_2775_BecomingThePresident.java) |  |
 </details>
 
 
