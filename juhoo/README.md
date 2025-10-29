@@ -18,13 +18,13 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 7576 | Tomato | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_7576_Tomato.java) | 2025-10-28 |
 | 1931 | MeetingRoomBooking | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1931_MeetingRoomBooking.java) | 2025-10-16 |
 | 1744 | GroupingNumbers | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_1744_GroupingNumbers.java) | 2025-10-15 |
 | 3079 | Immigration | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_3079_Immigration.java) | 2025-09-25 |
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 7576 | Tomato | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_7576_Tomato.java) |  |
 </details>
 
 <details>
@@ -33,6 +33,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 2407 | Combination | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2407_Combination.java) | 2025-10-28 |
 | 2156 | WineTasting | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_2156_WineTasting.java) | 2025-10-27 |
 | 16395 | PascalTriangle | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_16395_PascalTriangle.java) | 2025-10-27 |
 | 1932 | IntegerTriangle | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1932_IntegerTriangle.java) | 2025-10-24 |
@@ -133,7 +134,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 2407 | Combination | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2407_Combination.java) |  |
+| 1149 | RGB | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1149_RGB.java) |  |
+| 9184 | FunFunctionExecution | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_9184_FunFunctionExecution.java) |  |
 </details>
 
 <details>
