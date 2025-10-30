@@ -33,6 +33,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1149 | RGB | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1149_RGB.java) | 2025-10-29 |
+| 9184 | FunFunctionExecution | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_9184_FunFunctionExecution.java) | 2025-10-29 |
 | 2407 | Combination | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2407_Combination.java) | 2025-10-28 |
 | 2156 | WineTasting | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_2156_WineTasting.java) | 2025-10-27 |
 | 16395 | PascalTriangle | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_16395_PascalTriangle.java) | 2025-10-27 |
@@ -134,8 +136,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1149 | RGB | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1149_RGB.java) |  |
-| 9184 | FunFunctionExecution | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_9184_FunFunctionExecution.java) |  |
+| 1012 | OrganicCabbage | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1012_OrganicCabbage.java) |  |
+| 2606 | virus | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2606_virus.java) |  |
 </details>
 
 <details>
