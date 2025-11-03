@@ -25,6 +25,8 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
+| 1916 | FindingTheMinimumCost | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1916_FindingTheMinimumCost.java) |  |
+| 5972 | ParcelDelivery | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5972_ParcelDelivery.java) |  |
 </details>
 
 <details>
@@ -33,6 +35,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1325 | EfficientHacking | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1325_EfficientHacking.java) | 2025-10-31 |
+| 11724 | NumberOfConnectedComponents | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11724_NumberOfConnectedComponents.java) | 2025-10-31 |
 | 1012 | OrganicCabbage | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1012_OrganicCabbage.java) | 2025-10-30 |
 | 2606 | virus | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2606_virus.java) | 2025-10-30 |
 | 1149 | RGB | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1149_RGB.java) | 2025-10-29 |
@@ -138,8 +142,6 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 1325 | EfficientHacking | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1325_EfficientHacking.java) |  |
-| 11724 | NumberOfConnectedComponents | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11724_NumberOfConnectedComponents.java) |  |
 </details>
 
 <details>
