@@ -18,6 +18,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 1916 | FindingTheMinimumCost | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1916_FindingTheMinimumCost.java) | 2025-11-03 |
+| 5972 | ParcelDelivery | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5972_ParcelDelivery.java) | 2025-11-03 |
 | 7576 | Tomato | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_7576_Tomato.java) | 2025-10-28 |
 | 1931 | MeetingRoomBooking | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1931_MeetingRoomBooking.java) | 2025-10-16 |
 | 1744 | GroupingNumbers | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_1744_GroupingNumbers.java) | 2025-10-15 |
@@ -25,8 +27,7 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 1916 | FindingTheMinimumCost | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1916_FindingTheMinimumCost.java) |  |
-| 5972 | ParcelDelivery | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5972_ParcelDelivery.java) |  |
+| 1238 | Party | 🟥 백준 | 💛 Gold 3 | [📄](code/B_G3_1238_Party.java) |  |
 </details>
 
 <details>
