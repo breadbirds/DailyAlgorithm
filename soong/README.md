@@ -77,6 +77,7 @@
 | 9012  | [괄호](https://www.acmicpc.net/problem/9012)             | 백준 | 🥈 S4  | [📝](./baekjoon/sliver/9012_괄호.md)            | Stack    |
 | 28278 | [스택 2](https://www.acmicpc.net/problem/28278)          | 백준 | 🥈 S4  | [📝](./baekjoon/sliver/28278_스택2.md)          | Stack    |
 | 1966  | [프린터 큐](https://www.acmicpc.net/problem/1966)        | 백준 | 🥈 S3  | [📝](./baekjoon/sliver/1966_프린터큐.md)        | Deque    |
+| 12789  | [도키도키 간식드리미](https://www.acmicpc.net/problem/12789)        | 백준 | 🥈 S3  | [📝](./baekjoon/sliver/12789_도키도키%20간식드리미/README.md)        | Stack    |
 | 1406  | [에디터](https://www.acmicpc.net/problem/1406)           | 백준 | 🥈 S2  | [📝](./baekjoon/sliver/1406_에디터.md)          | Stack    |
 | 17298 | [오큰수](https://www.acmicpc.net/problem/17298)          | 백준 | 🥇 G4  | [📝](./baekjoon/gold/17298_오큰수/README.md)    | Stack    |
 
