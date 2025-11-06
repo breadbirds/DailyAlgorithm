@@ -18,6 +18,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 4485 | TheOneInGreenIsZelda | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_4485_TheOneInGreenIsZelda.java) | 2025-11-05 |
 | 1238 | Party | 🟥 백준 | 💛 Gold 3 | [📄](code/B_G3_1238_Party.java) | 2025-11-04 |
 | 1916 | FindingTheMinimumCost | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1916_FindingTheMinimumCost.java) | 2025-11-03 |
 | 5972 | ParcelDelivery | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5972_ParcelDelivery.java) | 2025-11-03 |
@@ -28,7 +29,7 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 4485 | TheOneInGreenIsZelda | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_4485_TheOneInGreenIsZelda.java) |  |
+| 2343 | GuitarLesson | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2343_GuitarLesson.java) |  |
 </details>
 
 <details>
@@ -144,6 +145,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
+| 4779 | CantorSet | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_4779_CantorSet.java) |  |
 </details>
 
 <details>
