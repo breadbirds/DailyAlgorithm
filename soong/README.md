@@ -119,6 +119,7 @@
 | 1924  | [2007년](https://www.acmicpc.net/problem/1924)            | 백준 | 🥉 B1  | [📝](./baekjoon/bronze/1924_2007년.md)                  |
 | 1032  | [명령 프롬프트](https://www.acmicpc.net/problem/1032)     | 백준 | 🥉 B1  | [📝](./baekjoon/bronze/1032_명령프롬프트.md)            |
 | 2331  | [반복수열](https://www.acmicpc.net/problem/2331)          | 백준 | 🥈 S4  | [📝](./baekjoon/sliver/2331_반복수열.md)                |
+| 10816  | [숫자 카드2](https://www.acmicpc.net/problem/10816)          | 백준 | 🥈 S4  | [📝](./baekjoon/sliver/10816_숫자%20카드2/README.md)                |
 | 1475  | [방 번호](https://www.acmicpc.net/problem/1475)           | 백준 | 🥈 S5  | [📝](./baekjoon/sliver/1475_방%20번호.md)               |
 | 4659  | [비밀번호 발음하기](https://www.acmicpc.net/problem/4659) | 백준 | 🥈 S5  | [📝](./baekjoon/sliver/4659_비밀번호발음하기/README.md) |
 | 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503)      | 백준 | 🥇 G5  | [📝](./baekjoon/gold/14503_로봇%20청소기/README.md)     |
