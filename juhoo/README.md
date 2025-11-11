@@ -18,6 +18,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 5904 | GameMoo | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5904_GameMoo.java) | 2025-11-10 |
 | 2665 | MakeMiro | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_2665_MakeMiro.java) | 2025-11-07 |
 | 2343 | GuitarLesson | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2343_GuitarLesson.java) | 2025-11-06 |
 | 4485 | TheOneInGreenIsZelda | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_4485_TheOneInGreenIsZelda.java) | 2025-11-05 |
@@ -31,7 +32,6 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 5904 | GameMoo | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5904_GameMoo.java) |  |
 </details>
 
 <details>
@@ -40,6 +40,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 17829 | 222Pulling | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_17829_222Pulling.java) | 2025-11-10 |
 | 4779 | CantorSet | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_4779_CantorSet.java) | 2025-11-06 |
 | 1325 | EfficientHacking | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_1325_EfficientHacking.java) | 2025-10-31 |
 | 11724 | NumberOfConnectedComponents | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11724_NumberOfConnectedComponents.java) | 2025-10-31 |
@@ -148,7 +149,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 17829 | 222Pulling | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_17829_222Pulling.java) |  |
+| 2629 | multiplication | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_2629_multiplication.java) |  |
+| 1072 | Game | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1072_Game.java) |  |
 </details>
 
 <details>
