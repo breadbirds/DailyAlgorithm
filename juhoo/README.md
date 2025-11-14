@@ -41,6 +41,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 11057 | IncreasingNumber | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_11057_IncreasingNumber.java) | 2025-11-13 |
+| 9465 | Sticker | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_9465_Sticker.java) | 2025-11-13 |
 | 2629 | multiplication | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_2629_multiplication.java) | 2025-11-11 |
 | 1072 | Game | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1072_Game.java) | 2025-11-11 |
 | 17829 | 222Pulling | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_17829_222Pulling.java) | 2025-11-10 |
@@ -152,8 +154,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 11057 | IncreasingNumber | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_11057_IncreasingNumber.java) |  |
-| 9465 | Sticker | 🟥 백준 | 🩶 Silver 1 | [📄](code/B_S1_9465_Sticker.java) |  |
+| 1904 | 01Tile | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_1904_01Tile.java) |  |
+| 2193 | no11binary | 🟥 백준 | 🩶 Silver 3 | [📄](code/B_S3_2193_no11binary.java) |  |
 </details>
 
 <details>
