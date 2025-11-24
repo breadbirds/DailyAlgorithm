@@ -18,6 +18,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 12865 | OrdinaryKnapsack | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_12865_OrdinaryKnapsack.java) | 2025-11-21 |
+| 2225 | SumDecomposition | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2225_SumDecomposition.java) | 2025-11-21 |
 | 9251 | LCS | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_9251_LCS.java) | 2025-11-12 |
 | 5904 | GameMoo | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_5904_GameMoo.java) | 2025-11-10 |
 | 2665 | MakeMiro | 🟥 백준 | 💛 Gold 4 | [📄](code/B_G4_2665_MakeMiro.java) | 2025-11-07 |
@@ -33,8 +35,7 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 12865 | OrdinaryKnapsack | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_12865_OrdinaryKnapsack.java) |  |
-| 2225 | SumDecomposition | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2225_SumDecomposition.java) |  |
+| 2096 | goDown | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2096_goDown.java) |  |
 </details>
 
 <details>
