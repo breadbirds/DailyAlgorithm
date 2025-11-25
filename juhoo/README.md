@@ -18,6 +18,7 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 2096 | goDown | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2096_goDown.java) | 2025-11-24 |
 | 12865 | OrdinaryKnapsack | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_12865_OrdinaryKnapsack.java) | 2025-11-21 |
 | 2225 | SumDecomposition | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2225_SumDecomposition.java) | 2025-11-21 |
 | 9251 | LCS | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_9251_LCS.java) | 2025-11-12 |
@@ -35,7 +36,6 @@
 | 1068 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1068_Tree.java) | 2025-09-10 |
 | 4803 | Tree | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_4803_Tree.java) | 2025-09-10 |
 | 1759 | makePassword | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_1759_makePassword.java) | 2025-08-20 |
-| 2096 | goDown | 🟥 백준 | 💛 Gold 5 | [📄](code/B_G5_2096_goDown.java) |  |
 </details>
 
 <details>
@@ -161,6 +161,7 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
+| 1874 | StackSequence | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1874_StackSequence.java) |  |
 </details>
 
 <details>
