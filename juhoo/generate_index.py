@@ -50,22 +50,25 @@ tier_priority = ['💚 Diamond', '🤍 Platinum', '💛 Gold', '🩶 Silver', '�
 grouped_rows = defaultdict(list)
 
 pattern = re.compile(r'B_([BSGPD])(\d)_(\d+)_([a-zA-Z0-9_]+)\.java')
-for filename in sorted(os.listdir(CODE_DIR)):
-    m = pattern.match(filename)
-    if not m:
-        print(f"❌ Not matched: {filename}")
-        continue
 
-    tier_char, level_num, num, title = m.groups()
-    level_label = f"{level_map[tier_char]} {level_num}"
-    tier_group = level_map[tier_char]
+for root, _, files in os.walk(CODE_DIR):
+    for filename in sorted(files):
+        m = pattern.match(filename)
+        if not m:
+            # print(f"❌ Not matched: {filename}")
+            continue
 
-    title_display = title.replace('_', ' ')
-    codepath = f"{CODE_DIR}/{filename}"
-    date = get_git_modified_date(codepath)
+        tier_char, level_num, num, title = m.groups()
+        level_label = f"{level_map[tier_char]} {level_num}"
+        tier_group = level_map[tier_char]
 
-    row = f'| {num} | {title_display} | 🟥 백준 | {level_label} | [📄]({codepath}) | {date} |'
-    grouped_rows[tier_group].append((date, row))  # 날짜 기준 정렬용
+        title_display = title.replace('_', ' ')
+        relpath = os.path.join(root, filename).replace('\\', '/')
+        date = get_git_modified_date(relpath)
+
+        row = f'| {num} | {title_display} | 🟥 백준 | {level_label} | [📄]({relpath}) | {date} |'
+        grouped_rows[tier_group].append((date, row))
+
 
 # 현재 티어 중 가장 높은 것 찾기
 available_tiers = [t for t in tier_priority if t in grouped_rows]
