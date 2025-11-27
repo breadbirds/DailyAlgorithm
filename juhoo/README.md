@@ -44,6 +44,8 @@
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 2290 | LCDTest | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2290_LCDTest.java) | 2025-11-26 |
+| 20773 | Zero | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_20773_Zero.java) | 2025-11-26 |
 | 1874 | StackSequence | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_1874_StackSequence.java) | 2025-11-25 |
 | 11048 | Move | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_11048_Move.java) | 2025-11-20 |
 | 15988 | 123plus3 | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_15988_123plus3.java) | 2025-11-20 |
@@ -162,8 +164,8 @@
 | 10431 | lineUp | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_10431_lineUp.java) | 2025-06-18 |
 | 9655 | StoneGame | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_9655_StoneGame.java) | 2025-06-16 |
 | 11723 | setManager | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_11723_setManager.java) | 2025-06-13 |
-| 2290 | LCDTest | 🟥 백준 | 🩶 Silver 2 | [📄](code/B_S2_2290_LCDTest.java) |  |
-| 20773 | Zero | 🟥 백준 | 🩶 Silver 4 | [📄](code/B_S4_20773_Zero.java) |  |
+| 13301 | tileDecoration | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_13301_tileDecoration.java) |  |
+| 1476 | DateCalculation | 🟥 백준 | 🩶 Silver 5 | [📄](code/B_S5_1476_DateCalculation.java) |  |
 </details>
 
 <details>
