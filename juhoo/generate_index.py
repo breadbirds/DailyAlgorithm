@@ -65,10 +65,6 @@ def get_git_first_date(file_path: str) -> str:
         return 'N/A'
 
 
-def make_progress_bar(total: int) -> str:
-    """progress-bar.dev 형식의 마크다운 이미지 생성."""
-    scale = max(total, 100)
-    return f"![Solved](https://progress-bar.dev/{total}/?scale={scale}&title=solved&width=300&color=20c997)"
 
 
 def make_tier_badge(name: str, count: int) -> str:
@@ -128,7 +124,6 @@ readme_lines = [header]
 
 # 진행 현황
 readme_lines.append("## 📊 Progress\n")
-readme_lines.append(make_progress_bar(total_solved))
 readme_lines.append("\n")
 readme_lines.append(f"Last updated: {today_str}  \n")
 readme_lines.append(f"Total solved: {total_solved} problems\n")

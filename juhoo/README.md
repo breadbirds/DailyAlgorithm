@@ -12,19 +12,18 @@
 
 ## 📊 Progress
 
-![Solved](https://progress-bar.dev/172/?scale=172&title=solved&width=300&color=20c997)
 
 
-Last updated: 2025-11-27  
+Last updated: 2025-11-28  
 
-Total solved: 172 problems
+Total solved: 173 problems
 
 
 </br>
 
 ## 🎖 Tier Breakdown
 
-![Gold](https://img.shields.io/badge/Gold-18-d4af37?style=for-the-badge) 
+![Gold](https://img.shields.io/badge/Gold-19-d4af37?style=for-the-badge) 
 ![Silver](https://img.shields.io/badge/Silver-122-c0c0c0?style=for-the-badge) 
 ![Bronze](https://img.shields.io/badge/Bronze-32-9c5221?style=for-the-badge) 
 
@@ -33,7 +32,7 @@ Total solved: 172 problems
 
 ## 🌟 Today’s Upload
 
-- 1476 DateCalculation ([code](code/silver/B_S5_1476_DateCalculation.java))
+- No commits for today (yet)
 
 
 </br>
@@ -46,6 +45,7 @@ Total solved: 172 problems
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
+| 7569 | 토마토 [✏️](https://velog.io/@bluemango0312/BOJ-7569) | 🟥 백준 | 💛 Gold 5 | [📄](code/gold/B_G5_7569_토마토.java) | N/A |
 | 2096 | goDown [✏️](https://velog.io/@bluemango0312/BOJ-2096) | 🟥 백준 | 💛 Gold 5 | [📄](code/gold/B_G5_2096_goDown.java) | 2025-11-24 |
 | 12865 | OrdinaryKnapsack [✏️](https://velog.io/@bluemango0312/BOJ-12865) | 🟥 백준 | 💛 Gold 5 | [📄](code/gold/B_G5_12865_OrdinaryKnapsack.java) | 2025-11-21 |
 | 2225 | SumDecomposition [✏️](https://velog.io/@bluemango0312/BOJ-2225) | 🟥 백준 | 💛 Gold 5 | [📄](code/gold/B_G5_2225_SumDecomposition.java) | 2025-11-21 |
