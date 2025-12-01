@@ -1,5 +1,8 @@
 
 
+<img width="1356" height="549" alt="image" src="https://github.com/user-attachments/assets/f23437f8-c897-4091-9f87-a923d0717bf9" />
+
+
 # 🌱 1일 1알고리즘 스터디
 
 ### 목표 : 매일 자유롭게 알고리즘 1개 이상 풀고 커밋해서 잔디 심기
