@@ -14,9 +14,9 @@
 
 
 
-Last updated: 2025-12-02  
+Last updated: 2025-12-03  
 
-Total solved: 177 problems
+Total solved: 179 problems
 
 
 </br>
@@ -24,7 +24,7 @@ Total solved: 177 problems
 ## 🎖 Tier Breakdown
 
 ![Gold](https://img.shields.io/badge/Gold-19-d4af37?style=for-the-badge) 
-![Silver](https://img.shields.io/badge/Silver-126-c0c0c0?style=for-the-badge) 
+![Silver](https://img.shields.io/badge/Silver-128-c0c0c0?style=for-the-badge) 
 ![Bronze](https://img.shields.io/badge/Bronze-32-9c5221?style=for-the-badge) 
 
 
@@ -72,8 +72,10 @@ Total solved: 177 problems
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
-| 1105 | 팔 [✏️](https://velog.io/@bluemango0312/BOJ-1105) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1105_팔.java) | N/A |
-| 20301 | 반전요세푸스 [✏️](https://velog.io/@bluemango0312/BOJ-20301) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_20301_반전요세푸스.java) | N/A |
+| 24480 | 깊이우선탐색2 [✏️](https://velog.io/@bluemango0312/BOJ-24480) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_24480_깊이우선탐색2.java) | N/A |
+| 26215 | 눈치우기 [✏️](https://velog.io/@bluemango0312/BOJ-26215) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_26215_눈치우기.java) | N/A |
+| 1105 | 팔 [✏️](https://velog.io/@bluemango0312/BOJ-1105) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1105_팔.java) | 2025-12-02 |
+| 20301 | 반전요세푸스 [✏️](https://velog.io/@bluemango0312/BOJ-20301) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_20301_반전요세푸스.java) | 2025-12-02 |
 | 1992 | 쿼드트리 [✏️](https://velog.io/@bluemango0312/BOJ-1992) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1992_쿼드트리.java) | 2025-12-01 |
 | 1448 | 삼각형만들기 [✏️](https://velog.io/@bluemango0312/BOJ-1448) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_1448_삼각형만들기.java) | 2025-12-01 |
 | 1476 | DateCalculation [✏️](https://velog.io/@bluemango0312/BOJ-1476) | 🟥 백준 | 🩶 Silver 5 | [📄](code/silver/B_S5_1476_DateCalculation.java) | 2025-11-27 |
@@ -100,9 +102,7 @@ Total solved: 177 problems
 | 2407 | Combination [✏️](https://velog.io/@bluemango0312/BOJ-2407) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_2407_Combination.java) | 2025-10-28 |
 | 2156 | WineTasting [✏️](https://velog.io/@bluemango0312/BOJ-2156) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_2156_WineTasting.java) | 2025-10-27 |
 | 16395 | PascalTriangle [✏️](https://velog.io/@bluemango0312/BOJ-16395) | 🟥 백준 | 🩶 Silver 5 | [📄](code/silver/B_S5_16395_PascalTriangle.java) | 2025-10-27 |
-| 1932 | IntegerTriangle [✏️](https://velog.io/@bluemango0312/BOJ-1932) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1932_IntegerTriangle.java) | 2025-10-24 |
-| 4963 | NumberOfIslands [✏️](https://velog.io/@bluemango0312/BOJ-4963) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_4963_NumberOfIslands.java) | 2025-10-23 |
-| ... | ... | ... | ... | ... | (+96 more) |
+| ... | ... | ... | ... | ... | (+98 more) |
 </details>
 
 <details>
