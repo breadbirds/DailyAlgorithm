@@ -14,9 +14,9 @@
 
 
 
-Last updated: 2025-12-03  
+Last updated: 2025-12-04  
 
-Total solved: 179 problems
+Total solved: 181 problems
 
 
 </br>
@@ -24,7 +24,7 @@ Total solved: 179 problems
 ## 🎖 Tier Breakdown
 
 ![Gold](https://img.shields.io/badge/Gold-19-d4af37?style=for-the-badge) 
-![Silver](https://img.shields.io/badge/Silver-128-c0c0c0?style=for-the-badge) 
+![Silver](https://img.shields.io/badge/Silver-130-c0c0c0?style=for-the-badge) 
 ![Bronze](https://img.shields.io/badge/Bronze-32-9c5221?style=for-the-badge) 
 
 
@@ -72,8 +72,10 @@ Total solved: 179 problems
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
-| 24480 | 깊이우선탐색2 [✏️](https://velog.io/@bluemango0312/BOJ-24480) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_24480_깊이우선탐색2.java) | N/A |
-| 26215 | 눈치우기 [✏️](https://velog.io/@bluemango0312/BOJ-26215) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_26215_눈치우기.java) | N/A |
+| 17087 | 숨바꼭질6 [✏️](https://velog.io/@bluemango0312/BOJ-17087) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_17087_숨바꼭질6.java) | N/A |
+| 9375 | 패션왕신해빈 [✏️](https://velog.io/@bluemango0312/BOJ-9375) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_9375_패션왕신해빈.java) | N/A |
+| 24480 | 깊이우선탐색2 [✏️](https://velog.io/@bluemango0312/BOJ-24480) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_24480_깊이우선탐색2.java) | 2025-12-03 |
+| 26215 | 눈치우기 [✏️](https://velog.io/@bluemango0312/BOJ-26215) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_26215_눈치우기.java) | 2025-12-03 |
 | 1105 | 팔 [✏️](https://velog.io/@bluemango0312/BOJ-1105) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1105_팔.java) | 2025-12-02 |
 | 20301 | 반전요세푸스 [✏️](https://velog.io/@bluemango0312/BOJ-20301) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_20301_반전요세푸스.java) | 2025-12-02 |
 | 1992 | 쿼드트리 [✏️](https://velog.io/@bluemango0312/BOJ-1992) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1992_쿼드트리.java) | 2025-12-01 |
@@ -100,9 +102,7 @@ Total solved: 179 problems
 | 1149 | RGB [✏️](https://velog.io/@bluemango0312/BOJ-1149) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1149_RGB.java) | 2025-10-29 |
 | 9184 | FunFunctionExecution [✏️](https://velog.io/@bluemango0312/BOJ-9184) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_9184_FunFunctionExecution.java) | 2025-10-29 |
 | 2407 | Combination [✏️](https://velog.io/@bluemango0312/BOJ-2407) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_2407_Combination.java) | 2025-10-28 |
-| 2156 | WineTasting [✏️](https://velog.io/@bluemango0312/BOJ-2156) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_2156_WineTasting.java) | 2025-10-27 |
-| 16395 | PascalTriangle [✏️](https://velog.io/@bluemango0312/BOJ-16395) | 🟥 백준 | 🩶 Silver 5 | [📄](code/silver/B_S5_16395_PascalTriangle.java) | 2025-10-27 |
-| ... | ... | ... | ... | ... | (+98 more) |
+| ... | ... | ... | ... | ... | (+100 more) |
 </details>
 
 <details>
