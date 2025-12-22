@@ -14,9 +14,9 @@
 
 
 
-Last updated: 2025-12-19  
+Last updated: 2025-12-22  
 
-Total solved: 185 problems
+Total solved: 186 problems
 
 
 </br>
@@ -24,7 +24,7 @@ Total solved: 185 problems
 ## 🎖 Tier Breakdown
 
 ![Gold](https://img.shields.io/badge/Gold-19-d4af37?style=for-the-badge) 
-![Silver](https://img.shields.io/badge/Silver-134-c0c0c0?style=for-the-badge) 
+![Silver](https://img.shields.io/badge/Silver-135-c0c0c0?style=for-the-badge) 
 ![Bronze](https://img.shields.io/badge/Bronze-32-9c5221?style=for-the-badge) 
 
 
@@ -72,8 +72,9 @@ Total solved: 185 problems
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
-| 3273 | 두수의합 [✏️](https://velog.io/@bluemango0312/BOJ-3273) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_3273_두수의합.java) | N/A |
-| 7795 | 먹을것인가먹힐것인가 [✏️](https://velog.io/@bluemango0312/BOJ-7795) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_7795_먹을것인가먹힐것인가.java) | N/A |
+| 5567 | 결혼식 [✏️](https://velog.io/@bluemango0312/BOJ-5567) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_5567_결혼식.java) | N/A |
+| 3273 | 두수의합 [✏️](https://velog.io/@bluemango0312/BOJ-3273) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_3273_두수의합.java) | 2025-12-19 |
+| 7795 | 먹을것인가먹힐것인가 [✏️](https://velog.io/@bluemango0312/BOJ-7795) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_7795_먹을것인가먹힐것인가.java) | 2025-12-19 |
 | 15990 | 123더하기5 [✏️](https://velog.io/@bluemango0312/BOJ-15990) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_15990_123더하기5.java) | 2025-12-05 |
 | 9996 | 한국이그리울땐서버에접속하지 [✏️](https://velog.io/@bluemango0312/BOJ-9996) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_9996_한국이그리울땐서버에접속하지.java) | 2025-12-05 |
 | 17087 | 숨바꼭질6 [✏️](https://velog.io/@bluemango0312/BOJ-17087) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_17087_숨바꼭질6.java) | 2025-12-04 |
@@ -101,8 +102,7 @@ Total solved: 185 problems
 | 4779 | CantorSet [✏️](https://velog.io/@bluemango0312/BOJ-4779) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_4779_CantorSet.java) | 2025-11-06 |
 | 1325 | EfficientHacking [✏️](https://velog.io/@bluemango0312/BOJ-1325) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1325_EfficientHacking.java) | 2025-10-31 |
 | 11724 | NumberOfConnectedComponents [✏️](https://velog.io/@bluemango0312/BOJ-11724) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_11724_NumberOfConnectedComponents.java) | 2025-10-31 |
-| 1012 | OrganicCabbage [✏️](https://velog.io/@bluemango0312/BOJ-1012) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_1012_OrganicCabbage.java) | 2025-10-30 |
-| ... | ... | ... | ... | ... | (+104 more) |
+| ... | ... | ... | ... | ... | (+105 more) |
 </details>
 
 <details>
