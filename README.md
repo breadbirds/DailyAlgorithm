@@ -1,6 +1,5 @@
 
-
-<img width="1356" height="549" alt="image" src="https://github.com/user-attachments/assets/f23437f8-c897-4091-9f87-a923d0717bf9" />
+![](https://velog.velcdn.com/images/bmlsj/post/443027a8-6afd-448b-b56c-6f3dd57e445f/image.png)
 
 
 # 🌱 1일 1알고리즘 스터디
