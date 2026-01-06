@@ -14,9 +14,9 @@
 
 
 
-Last updated: 2025-12-22  
+Last updated: 2026-01-06  
 
-Total solved: 186 problems
+Total solved: 188 problems
 
 
 </br>
@@ -24,7 +24,7 @@ Total solved: 186 problems
 ## 🎖 Tier Breakdown
 
 ![Gold](https://img.shields.io/badge/Gold-19-d4af37?style=for-the-badge) 
-![Silver](https://img.shields.io/badge/Silver-135-c0c0c0?style=for-the-badge) 
+![Silver](https://img.shields.io/badge/Silver-137-c0c0c0?style=for-the-badge) 
 ![Bronze](https://img.shields.io/badge/Bronze-32-9c5221?style=for-the-badge) 
 
 
@@ -72,7 +72,9 @@ Total solved: 186 problems
 
 | No. | Title | Site | Level | Code | Date |
 |-----|-------|------|-------|------|------|
-| 5567 | 결혼식 [✏️](https://velog.io/@bluemango0312/BOJ-5567) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_5567_결혼식.java) | N/A |
+| 14235 | 크리스마스선물 [✏️](https://velog.io/@bluemango0312/BOJ-14235) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_14235_크리스마스선물.java) | N/A |
+| 1057 | 토너먼트 [✏️](https://velog.io/@bluemango0312/BOJ-1057) | 🟥 백준 | 🩶 Silver 4 | [📄](code/silver/B_S4_1057_토너먼트.java) | N/A |
+| 5567 | 결혼식 [✏️](https://velog.io/@bluemango0312/BOJ-5567) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_5567_결혼식.java) | 2025-12-22 |
 | 3273 | 두수의합 [✏️](https://velog.io/@bluemango0312/BOJ-3273) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_3273_두수의합.java) | 2025-12-19 |
 | 7795 | 먹을것인가먹힐것인가 [✏️](https://velog.io/@bluemango0312/BOJ-7795) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_7795_먹을것인가먹힐것인가.java) | 2025-12-19 |
 | 15990 | 123더하기5 [✏️](https://velog.io/@bluemango0312/BOJ-15990) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_15990_123더하기5.java) | 2025-12-05 |
@@ -100,9 +102,7 @@ Total solved: 186 problems
 | 1072 | Game [✏️](https://velog.io/@bluemango0312/BOJ-1072) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_1072_Game.java) | 2025-11-11 |
 | 17829 | 222Pulling [✏️](https://velog.io/@bluemango0312/BOJ-17829) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_17829_222Pulling.java) | 2025-11-10 |
 | 4779 | CantorSet [✏️](https://velog.io/@bluemango0312/BOJ-4779) | 🟥 백준 | 🩶 Silver 3 | [📄](code/silver/B_S3_4779_CantorSet.java) | 2025-11-06 |
-| 1325 | EfficientHacking [✏️](https://velog.io/@bluemango0312/BOJ-1325) | 🟥 백준 | 🩶 Silver 1 | [📄](code/silver/B_S1_1325_EfficientHacking.java) | 2025-10-31 |
-| 11724 | NumberOfConnectedComponents [✏️](https://velog.io/@bluemango0312/BOJ-11724) | 🟥 백준 | 🩶 Silver 2 | [📄](code/silver/B_S2_11724_NumberOfConnectedComponents.java) | 2025-10-31 |
-| ... | ... | ... | ... | ... | (+105 more) |
+| ... | ... | ... | ... | ... | (+107 more) |
 </details>
 
 <details>
